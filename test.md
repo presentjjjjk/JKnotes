@@ -91,7 +91,7 @@ $\displaystyle \left(\int_0^1e^{-x^2}dx \right)$
 方括号
 $\displaystyle \left[\int_0^1e^{-x^2}dx\right]$
 花括号(大括号)
-注意这里的\{必须是一个转义字符,因为原来的花括号另有用处
+注意这里的'{}'必须是一个转义字符,因为原来的花括号另有用处
 $\displaystyle \left\{\sum \frac{1}{k}\right\}$
 
 书写多行算式使用begin{aligned}
