@@ -15,11 +15,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/blog/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/notes/</loc>
+        <loc>https://localhost:8000/notes/README2/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/README2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/README2/"/>
     </url>
     <url>
         <loc>https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
@@ -57,11 +57,11 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/blog/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/en/notes/</loc>
+        <loc>https://localhost:8000/en/notes/README2/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/README2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/README2/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
