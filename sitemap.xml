@@ -8,6 +8,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/README2/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/README2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/README2/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/blog/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
@@ -15,32 +22,18 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/blog/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/notes/README2/</loc>
+        <loc>https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/README2/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/README2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
+        <loc>https://localhost:8000/math/calculus/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/notes/math/calculus/</loc>
-        <lastmod>2024-07-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/math/calculus/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/math/calculus/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/</loc>
-        <lastmod>2024-07-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/</loc>
@@ -50,6 +43,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/en/README2/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/README2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/README2/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/en/blog/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
@@ -57,31 +57,17 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/blog/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/en/notes/README2/</loc>
+        <loc>https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/README2/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/README2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
+        <loc>https://localhost:8000/en/math/calculus/</loc>
         <lastmod>2024-07-03</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/en/notes/math/calculus/</loc>
-        <lastmod>2024-07-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/math/calculus/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/math/calculus/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/en/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/</loc>
-        <lastmod>2024-07-03</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/"/>
     </url>
 </urlset>
