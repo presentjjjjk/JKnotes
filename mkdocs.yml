@@ -82,6 +82,7 @@ theme:
 
 # Plugins
 plugins:
+  - search
   - tags # 标签功能插件
   - blog # 博客功能插件
   - rss: # rss订阅插件 - 不太懂是干嘛的目前
@@ -227,3 +228,50 @@ nav:
       - "math/calculus.md"
   - ENGINEERING:
       - "engineer/化工热力学.md"
+
+
+extra_css:
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/glightbox.min.css
+  - assets/stylesheets/galaxy.css
+  - assets/stylesheets/charging.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+# - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+# - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+# - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+
+extra_javascript:
+  - assets/javascripts/katex.js 
+  - assets/javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/javascripts/titlechange.js
+  - assets/javascripts/glightbox.min.js
+  - assets/javascripts/click.js
+  - assets/javascripts/galaxy.js
+
+extra:
+  mathjax_config: {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      multline: {
+        align: 'center'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '0em',
+      packages: {'[+]': ['base', 'ams', 'bbox', 'boldsymbol', 'color', 'mathtools', 'noerrors', 'noundefined']}
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process',
+      linebreaks: { automatic: true }
+    }
+  }
+
