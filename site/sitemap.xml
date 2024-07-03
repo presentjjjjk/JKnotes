@@ -1,3 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://localhost:8000/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/blog/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/blog/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/notes/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/notes/math/calculus/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/math/calculus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/math/calculus/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/blog/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/blog/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/blog/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/notes/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/notes/math/calculus/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/math/calculus/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/math/calculus/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/</loc>
+        <lastmod>2024-07-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/notes/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9/test/"/>
+    </url>
 </urlset>
