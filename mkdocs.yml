@@ -221,7 +221,7 @@ nav:
   - HOME: 
       - "./index.md"
       - ABOUT: 
-        - "./notes/README.md"
+        - "./notes/README2.md"
       
   - MATH: 
       - "./notes/math/calculus.md"
