@@ -118,6 +118,8 @@ plugins:
             MATH: 数学基础
             ENGINEERING: 工程基础
             THEROY: 理论基础
+            MM: 数学建模
+            PC: 物理化学基础
 # Hooks - 讲真，这个东西我还没搞懂
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -230,7 +232,21 @@ nav:
   - ENGINEERING:
       - "engineer/化工热力学.md"
   - THEROY:
-      - "theroy/物理化学基础.md"
+      - "theroy/index.md"
+      - PC:
+        - "theroy/PC/物理化学.md"
+      - MM:
+        - "theroy/MM/pagerank/pagerank.md"
+        - "MM/随机模型/随机模型.md"
+        - "MM/秘书问题/秘书问题.md"
+        - "MM/常微分方程模型/常微分方程模型.md"
+        - "MM/差分方程模型/差分方程模型.md"
+        - "MM/数学规划/数学规划.md"
+        - "MM/组合优化/组合优化.md"
+        - "MM/图论/图论.md"
+        - "MM/博弈论/博弈论.md"
+
+
 
 
 extra_css:

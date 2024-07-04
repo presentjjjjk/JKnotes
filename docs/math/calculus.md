@@ -106,9 +106,10 @@ $$
 
   只需要取N=$max\{N,n_N\}$,就能使得这个不等式继续放缩
 
-   $$
-   |a_n-a|=|a_n-a_{n_k}+a_{n_k}-a|<=|a_n-a_{n_k}|+|a_{n_k}-a|<\frac{\varepsilon}{2}\times2=\varepsilon
-   $$
+!!! tip
+    $$
+    |a_n-a|=|a_n-a_{n_k}+a_{n_k}-a|<=|a_n-a_{n_k}|+|a_{n_k}-a|<\frac{\varepsilon}{2}\times2=\varepsilon
+    $$
 
    柯西审敛准则在某些时候相当好用,一些证明就不需要放缩了,比如证明$a_n=\sum\frac{1}{n}$是发散的
    当n>某个N时,我们任取m,n,令m=n+p,就得到:
@@ -128,6 +129,7 @@ $$
 
 这个式子其实就是e的定义,下面我们证明这个极限存在,通常有很多种证明方法,下面给出1种:
 我们把$(1+\frac{1}{n})^n$展开得到:
+
 $$
 \begin{aligned}
 &(1+\frac{1}{n})^n=C_n^0+C_n^1\frac{1}{n}+C_n^2\frac{1}{n}^2+...+C_n^k\frac{1}{n}^k+...+C_n^n\frac{1}{n}^n\\
