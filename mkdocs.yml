@@ -48,8 +48,8 @@ theme:
   palette:
     - media: "(prefers-color-scheme)" # 主题颜色
       scheme: slate
-      primary: black
-      accent: indigo
+      primary: indigo
+      accent: black
       toggle:
         icon: material/link
         name: Switch to light mode
@@ -117,6 +117,7 @@ plugins:
             ABOUT: 关于
             MATH: 数学基础
             ENGINEERING: 工程基础
+            THEROY: 理论基础
 # Hooks - 讲真，这个东西我还没搞懂
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -228,6 +229,8 @@ nav:
       - "math/calculus.md"
   - ENGINEERING:
       - "engineer/化工热力学.md"
+  - THEROY:
+      - "theroy/物理化学基础.md"
 
 
 extra_css:
