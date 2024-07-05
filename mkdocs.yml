@@ -272,25 +272,4 @@ extra_javascript:
   - assets/javascripts/click.js
   - assets/javascripts/galaxy.js
 
-extra:
-  mathjax_config: {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true,
-      multline: {
-        align: 'center'
-      },
-      tags: 'ams',
-      tagSide: 'right',
-      tagIndent: '0em',
-      packages: {'[+]': ['base', 'ams', 'bbox', 'boldsymbol', 'color', 'mathtools', 'noerrors', 'noundefined']}
-    },
-    options: {
-      ignoreHtmlClass: 'tex2jax_ignore',
-      processHtmlClass: 'tex2jax_process',
-      linebreaks: { automatic: true }
-    }
-  }
 
