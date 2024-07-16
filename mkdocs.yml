@@ -119,7 +119,10 @@ plugins:
             ENGINEERING: 工程基础
             THEROY: 理论基础
             MM: 数学建模
-            PC: 物理化学基础
+            PC: 物理化学
+            chemical_engineering: 化工热力学
+            polymer chemistry: 高分子化学(乙)
+            machine-learning: 机器学习
 # Hooks - 讲真，这个东西我还没搞懂
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -230,21 +233,21 @@ nav:
   - MATH: 
       - "math/calculus.md"
   - ENGINEERING:
-      - "engineer/化工热力学.md"
+      - 'engineer/index.md'
+      - chemical_engineering:
+        - "engineer/化工热力学/介绍.md"
+        - "engineer/化工热力学/状态方程.md"
+        - "engineer/化工热力学/均相封闭体系.md"
+      - polymer chemistry:
+        - 'engineer/高分子化学(乙)/3天速成高分子.md'
   - THEROY:
       - "theroy/index.md"
-      - PC:
-        - "theroy/PC/物理化学.md"
-      - MM:
-        - "theroy/MM/pagerank/pagerank.md"
-        - "MM/随机模型/随机模型.md"
-        - "MM/秘书问题/秘书问题.md"
-        - "MM/常微分方程模型/常微分方程模型.md"
-        - "MM/差分方程模型/差分方程模型.md"
-        - "MM/数学规划/数学规划.md"
-        - "MM/组合优化/组合优化.md"
-        - "MM/图论/图论.md"
-        - "MM/博弈论/博弈论.md"
+      - PC: 
+        - "theroy/PC/介绍.md"
+        - 'theroy/PC/量子理论初步.md'
+        - 'theroy/PC/原子结构与原子光谱.md'
+      - machine-learning:
+        - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
 
 
 
