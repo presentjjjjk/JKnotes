@@ -15,8 +15,8 @@ while True:
     #在np中,*在向量中的运算是逐元素相乘,类似于点乘
     y_pred = w * x + b
     error = y_pred - y
-    decrease_1 = np.sum(error * x) / 100
-    decrease_2 = np.sum(error) / 100
+    decrease_1 = np.sum(error * x) / 20
+    decrease_2 = np.sum(error) / 20
     
     w = w - a * decrease_1
     b = b - a * decrease_2

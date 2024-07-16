@@ -50,6 +50,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/</loc>
+        <lastmod>2024-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/</loc>
         <lastmod>2024-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -99,11 +106,11 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/</loc>
+        <loc>https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/</loc>
         <lastmod>2024-07-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/</loc>
@@ -155,6 +162,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/</loc>
+        <lastmod>2024-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/en/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/</loc>
         <lastmod>2024-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -204,10 +218,10 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/</loc>
+        <loc>https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/</loc>
         <lastmod>2024-07-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
     </url>
 </urlset>
