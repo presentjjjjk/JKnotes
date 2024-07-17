@@ -2,224 +2,224 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://localhost:8000/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/"/>
     </url>
     <url>
         <loc>https://localhost:8000/README2/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/README2/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/README2/"/>
     </url>
     <url>
         <loc>https://localhost:8000/blog/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/blog/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/blog/"/>
     </url>
     <url>
         <loc>https://localhost:8000/engineer/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/"/>
     </url>
     <url>
         <loc>https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E4%BB%8B%E7%BB%8D/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E4%BB%8B%E7%BB%8D/"/>
     </url>
     <url>
         <loc>https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E5%9D%87%E7%9B%B8%E5%B0%81%E9%97%AD%E4%BD%93%E7%B3%BB/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E5%9D%87%E7%9B%B8%E5%B0%81%E9%97%AD%E4%BD%93%E7%B3%BB/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E5%9D%87%E7%9B%B8%E5%B0%81%E9%97%AD%E4%BD%93%E7%B3%BB/"/>
     </url>
     <url>
         <loc>https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/"/>
     </url>
     <url>
         <loc>https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
     </url>
     <url>
         <loc>https://localhost:8000/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/"/>
     </url>
     <url>
         <loc>https://localhost:8000/math/calculus/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/PC/%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E4%BB%8B%E7%BB%8D/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E4%BB%8B%E7%BB%8D/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/PC/%E5%8E%9F%E5%AD%90%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8E%9F%E5%AD%90%E5%85%89%E8%B0%B1/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E5%8E%9F%E5%AD%90%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8E%9F%E5%AD%90%E5%85%89%E8%B0%B1/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E5%8E%9F%E5%AD%90%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8E%9F%E5%AD%90%E5%85%89%E8%B0%B1/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/README2/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/README2/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/README2/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/blog/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/blog/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/blog/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/engineer/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E4%BB%8B%E7%BB%8D/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E4%BB%8B%E7%BB%8D/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E5%9D%87%E7%9B%B8%E5%B0%81%E9%97%AD%E4%BD%93%E7%B3%BB/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E5%9D%87%E7%9B%B8%E5%B0%81%E9%97%AD%E4%BD%93%E7%B3%BB/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E5%9D%87%E7%9B%B8%E5%B0%81%E9%97%AD%E4%BD%93%E7%B3%BB/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E7%8A%B6%E6%80%81%E6%96%B9%E7%A8%8B/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E5%8C%96%E5%B7%A5%E7%83%AD%E5%8A%9B%E5%AD%A6/%E9%80%B8%E5%BA%A6%E4%B8%8E%E9%A5%B1%E5%92%8C%E7%89%A9%E6%80%A7/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/math/calculus/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/PC/%E4%BB%8B%E7%BB%8D/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E4%BB%8B%E7%BB%8D/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E4%BB%8B%E7%BB%8D/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/PC/%E5%8E%9F%E5%AD%90%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8E%9F%E5%AD%90%E5%85%89%E8%B0%B1/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E5%8E%9F%E5%AD%90%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8E%9F%E5%AD%90%E5%85%89%E8%B0%B1/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E5%8E%9F%E5%AD%90%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8E%9F%E5%AD%90%E5%85%89%E8%B0%B1/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/PC/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/</loc>
-        <lastmod>2024-07-16</lastmod>
+        <lastmod>2024-07-17</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/machine-learning/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B/"/>

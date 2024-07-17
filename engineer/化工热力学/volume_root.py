@@ -1,9 +1,16 @@
 #先做一个纯组分的饱和物性求解
 import sympy as sp
+from scipy.integrate import quad
 
-p_c,T_c=map(float,input('请输入临界参数').split())
-T_0,w=map(float,input('请输入温度和偏心因子').split())
-p_s=float(input('请给出饱和蒸气压的初值'))
+#p_c,T_c=map(float,input('请输入临界参数').split())
+#T_0,w=map(float,input('请输入温度和偏心因子').split())
+
+p_c,T_c,w,T_0=3.797,425.4,0.193,273.15
+
+#p_s=float(input('请给出饱和蒸气压的初值'))
+#这个不用了,我在后面已经找到合适的估计饱和蒸气压初值的办法了
+p_s=p_c*10**(7*(1+w)/3*(1-T_c/T_0))
+
 #计算相应的参数
 R=8.31451
 a_c=0.457235*(R*T_c)**2/p_c
@@ -16,14 +23,21 @@ f_v0=R*T_0/(V-b)-a/(V*(V+b)+b*(V-b))
 while True:
     f_v=R*T_0/(V-b)-a/(V*(V+b)+b*(V-b))-p_s
     root=sp.solve(f_v,V)#注意这里返回的是根的列表
-    root=[i for i in root if i.is_real and i>b]
+    #root=[abs(i) for i in root ]
     if not root:
         print('无解,初值设置不对')
         break
     V_1=min(root)
     V_2=max(root)
     #计算定积分
-    x=sp.integrate(f_v,(V,V_1,V_2))
+
+     # 定义数值积分函数
+    def f_v_numeric(V):
+        return R * T_0 / (V - b) - a / (V * (V + b) + b * (V - b)) - p_s
+
+    # 计算定积分
+    x, _ = quad(f_v_numeric, V_1, V_2)
+
     if abs(x)<=1e-6:
         print(f'饱和蒸气压为{p_s:.4f}')
         print(f'气相饱和体积为{V_1:.4f}')
