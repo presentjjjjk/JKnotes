@@ -6,10 +6,11 @@ from math import sqrt
 #定义相关常数
 R=8.3145
 
-p_c,T_c,w=map(float,input('请依次输入临界压力,临界温度和偏心因子').split())
+#p_c,T_c,w=map(float,input('请依次输入临界压力,临界温度和偏心因子').split())
 
+#T=float(input('请输入温度'))
 
-T=float(input('请输入温度'))
+p_c,T_c,w,T=3.797,425.4,0.193,273.15
 
 #计算方程常数
 a_c=0.457235*(R*T_c)**2/p_c
@@ -46,7 +47,7 @@ while True:
     print(root_1,p_s,Z_sv,Z_sl,ln_phi_sv,ln_phi_sl)
     #终止条件
     if abs(ln_phi_sv-ln_phi_sl)<1e-5:
-        print(f'p_s={p_s:.2f},V_sv={V_sv:.2f},V_sl={V_sl:.2f}')
+        print(f'p_s={p_s:.4f},V_sv={V_sv:.4f},V_sl={V_sl:.4f}')
         break
     else:
         C=(1-(ln_phi_sv-ln_phi_sl)/(Z_sv-Z_sl))
