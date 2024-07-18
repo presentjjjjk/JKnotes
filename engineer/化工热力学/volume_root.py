@@ -20,15 +20,25 @@ a=a_c*a_0
 #定义符号变量和PR方程
 V=sp.symbols('V')
 f_v0=R*T_0/(V-b)-a/(V*(V+b)+b*(V-b))
+
+y1=sp.diff(f_v0,V)
+root_2=sp.solve(y1,V)
+root_2=[abs(i) for i in root_2 if abs(i)>b]
+t=[f_v0.subs({V:i}) for i in root_2]
+V_max=max(t)
+V_min=min(t) if min(t)>0 else 0
+
+
 while True:
     f_v=R*T_0/(V-b)-a/(V*(V+b)+b*(V-b))-p_s
     root=sp.solve(f_v,V)#注意这里返回的是根的列表
-    #root=[abs(i) for i in root ]
+    root=[abs(i) for i in root ]
     if not root:
         print('无解,初值设置不对')
         break
     V_1=min(root)
     V_2=max(root)
+    
     #计算定积分
 
      # 定义数值积分函数
@@ -44,7 +54,11 @@ while True:
         print(f'液相饱和体积为{V_2:.4f}')
         break
     else:
-        V_0=sum(root)/len(root)#感觉这个迭代条件不是很合适
-        p_s=f_v0.subs({V:V_0})
+        if x>0:
+            V_min=(V_max+V_min)/2
+            p_s=(V_max+V_min)/2
+        else:
+            V_max=(V_max+V_min)/2
+            p_s=(V_max+V_min)/2
         print(p_s)
 
