@@ -71,11 +71,46 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/math/calculus/</loc>
+        <loc>https://localhost:8000/math/</loc>
         <lastmod>2024-07-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/math/calculus/%E4%BB%8B%E7%BB%8D/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E4%BB%8B%E7%BB%8D/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E4%BB%8B%E7%BB%8D/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/math/calculus/%E5%BE%AE%E5%88%86%E4%B8%8E%E5%AF%BC%E6%95%B0/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E5%BE%AE%E5%88%86%E4%B8%8E%E5%AF%BC%E6%95%B0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E5%BE%AE%E5%88%86%E4%B8%8E%E5%AF%BC%E6%95%B0/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/math/calculus/%E6%9E%81%E9%99%90/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E6%9E%81%E9%99%90/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E6%9E%81%E9%99%90/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/math/calculus/%E7%A7%AF%E5%88%86/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E7%A7%AF%E5%88%86/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E7%A7%AF%E5%88%86/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/math/calculus/%E7%BA%A7%E6%95%B0/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E7%BA%A7%E6%95%B0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E7%BA%A7%E6%95%B0/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/</loc>
@@ -85,11 +120,18 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/</loc>
+        <loc>https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2024-07-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/theroy/MM/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/PC/%E4%BB%8B%E7%BB%8D/</loc>
@@ -197,11 +239,46 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/engineer/%E9%AB%98%E5%88%86%E5%AD%90%E5%8C%96%E5%AD%A6%28%E4%B9%99%29/3%E5%A4%A9%E9%80%9F%E6%88%90%E9%AB%98%E5%88%86%E5%AD%90/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/en/math/calculus/</loc>
+        <loc>https://localhost:8000/en/math/</loc>
         <lastmod>2024-07-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/math/calculus/%E4%BB%8B%E7%BB%8D/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E4%BB%8B%E7%BB%8D/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E4%BB%8B%E7%BB%8D/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/math/calculus/%E5%BE%AE%E5%88%86%E4%B8%8E%E5%AF%BC%E6%95%B0/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E5%BE%AE%E5%88%86%E4%B8%8E%E5%AF%BC%E6%95%B0/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E5%BE%AE%E5%88%86%E4%B8%8E%E5%AF%BC%E6%95%B0/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/math/calculus/%E6%9E%81%E9%99%90/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E6%9E%81%E9%99%90/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E6%9E%81%E9%99%90/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/math/calculus/%E7%A7%AF%E5%88%86/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E7%A7%AF%E5%88%86/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E7%A7%AF%E5%88%86/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/math/calculus/%E7%BA%A7%E6%95%B0/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/math/calculus/%E7%BA%A7%E6%95%B0/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/math/calculus/%E7%BA%A7%E6%95%B0/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/</loc>
@@ -211,11 +288,18 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/</loc>
+        <loc>https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2024-07-20</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/7.5%E9%9B%86%E8%AE%AD/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/7.5%E9%9B%86%E8%AE%AD/7.5%E9%9B%86%E8%AE%AD%E7%AC%94%E8%AE%B0/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/theroy/MM/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+        <lastmod>2024-07-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E5%9B%BE%E8%AE%BA/%E5%9B%BE%E8%AE%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/PC/%E4%BB%8B%E7%BB%8D/</loc>
