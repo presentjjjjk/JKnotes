@@ -1,7 +1,4 @@
-html, body {
-  font-family: "LXGW WenKai", sans-serif;
-  font-size: 21px; /* 全局字体大小 */
-}
+
 
 .md-typeset div.arithmatex {
   overflow-y: hidden;
@@ -43,7 +40,7 @@ a:active {
 }
 
 strong {
-  text-shadow: 0.7px 0px;
+  /*text-shadow: 0.7px 0px;
   /* text-shadow: 0 0 1px #ffffff; */
 
 }

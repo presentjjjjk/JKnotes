@@ -212,8 +212,6 @@ nav:
       - ABOUT: 
         - "README2.md"
       
-  - MATH: 
-      - "math/calculus.md"
   - ENGINEERING:
       - 'engineer/index.md'
       - chemical_engineering:
@@ -232,6 +230,8 @@ nav:
       - machine-learning:
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
         - 'theroy/machine-learning/二分类模型/二分类模型.md'
+  - MATH: 
+      - "math/calculus.md"
 
 
 
