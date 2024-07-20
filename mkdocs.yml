@@ -105,6 +105,7 @@ plugins:
             chemical_engineering: 化工热力学
             polymer chemistry: 高分子化学(乙)
             machine-learning: 机器学习
+            calculus: 微积分
 # Hooks - 讲真，这个东西我还没搞懂
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -230,8 +231,19 @@ nav:
       - machine-learning:
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
         - 'theroy/machine-learning/二分类模型/二分类模型.md'
+      - MM:
+        - "theroy/MM/图论/图论基础知识.md"
   - MATH: 
-      - "math/calculus.md"
+      - "math/index.md"
+      - calculus:
+        - "math/calculus/介绍.md"
+        - "math/calculus/极限.md"
+        - "math/calculus/微分与导数.md"
+        - "math/calculus/级数.md"
+        - "math/calculus/积分.md"
+
+
+        
 
 
 
