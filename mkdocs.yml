@@ -233,6 +233,7 @@ nav:
         - 'theroy/machine-learning/二分类模型/二分类模型.md'
       - MM:
         - "theroy/MM/图论/图论基础知识.md"
+        - "theroy/MM/组合优化/组合优化.md"
   - MATH: 
       - "math/index.md"
       - calculus:
