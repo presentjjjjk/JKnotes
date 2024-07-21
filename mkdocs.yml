@@ -220,20 +220,25 @@ nav:
         - "engineer/化工热力学/状态方程.md"
         - "engineer/化工热力学/均相封闭体系.md"
         - "engineer/化工热力学/均相敞开系统.md"
+        - "engineer/化工热力学/非均相系统.md"
       - polymer chemistry:
         - 'engineer/高分子化学(乙)/3天速成高分子.md'
   - THEROY:
       - "theroy/index.md"
+
+      - MM:
+        - "theroy/MM/图论/图论基础知识.md"
+        - "theroy/MM/组合优化/组合优化.md"
+
+      - machine-learning:
+        - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
+        - 'theroy/machine-learning/二分类模型/二分类模型.md'
+
       - PC: 
         - "theroy/PC/介绍.md"
         - 'theroy/PC/量子理论初步.md'
         - 'theroy/PC/原子结构与原子光谱.md'
-      - machine-learning:
-        - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
-        - 'theroy/machine-learning/二分类模型/二分类模型.md'
-      - MM:
-        - "theroy/MM/图论/图论基础知识.md"
-        - "theroy/MM/组合优化/组合优化.md"
+        
   - MATH: 
       - "math/index.md"
       - calculus:
