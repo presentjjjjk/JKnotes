@@ -2,7 +2,7 @@
 import random as rd
 
 #先定义种群规模
-N=100
+N=200
 
 #定义进化代数
 n=0

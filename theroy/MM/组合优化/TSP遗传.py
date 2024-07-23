@@ -10,7 +10,7 @@ def distance(i,j):
     return dis
 
 #先定义种群规模
-N=500
+N=100
 
 #定义进化代数
 n=0
