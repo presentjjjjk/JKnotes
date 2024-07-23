@@ -229,6 +229,7 @@ nav:
       - MM:
         - "theroy/MM/图论/图论基础知识.md"
         - "theroy/MM/组合优化/组合优化.md"
+        - "theroy/MM/组合优化/遗传算法实例.md"
 
       - machine-learning:
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
