@@ -50,7 +50,7 @@ theme:
         name: Switch to system preference
       
   font:
-    text: Noto Sans SC
+    text: Noto Serif SC 
     code: Fira Code
   favicon: image/logo.png # 网站图标 似乎不需要管
   icon: # 一些用到的icon
