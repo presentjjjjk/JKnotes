@@ -1,4 +1,3 @@
-
 body {
   font-family: "LXGW WenKai", sans-serif;
   /* Lite version */
@@ -49,7 +48,7 @@ a:active {
 }
 
 strong {
-  /*text-shadow: 0.7px 0px;
+  text-shadow: 0.7px 0px;
   /* text-shadow: 0 0 1px #ffffff; */
 
 }
