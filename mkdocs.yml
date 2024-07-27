@@ -227,8 +227,11 @@ nav:
       - "theroy/index.md"
 
       - MM:
+        - "theroy/MM/index.md"
         - "theroy/MM/图论/图论基础知识.md"
         - "theroy/MM/运筹与决策/数学规划.md"
+        - "theroy/MM/运筹与决策/线性规划求解实例.md"
+        - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
         - "theroy/MM/运筹与决策/组合优化.md"
         - "theroy/MM/运筹与决策/遗传算法实例.md"
         - "theroy/MM/运筹与决策/禁忌搜索算法实例.md"
