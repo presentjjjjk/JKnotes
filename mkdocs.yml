@@ -216,7 +216,7 @@ nav:
   - ENGINEERING:
       - 'engineer/index.md'
       - chemical_engineering:
-        - "engineer/化工热力学/介绍.md"
+        - "engineer/化工热力学/index.md"
         - "engineer/化工热力学/状态方程.md"
         - "engineer/化工热力学/均相封闭体系.md"
         - "engineer/化工热力学/均相敞开系统.md"
@@ -232,17 +232,21 @@ nav:
         - "theroy/MM/运筹与决策/数学规划.md"
         - "theroy/MM/运筹与决策/线性规划求解实例.md"
         - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
+        - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
         - "theroy/MM/运筹与决策/组合优化.md"
         - "theroy/MM/运筹与决策/遗传算法实例.md"
         - "theroy/MM/运筹与决策/禁忌搜索算法实例.md"
         - "theroy/MM/运筹与决策/蚁群算法实例.md"
+        - "theroy/MM/cjs/Learn/马尔科夫预测模型.md"
+        - "theroy/MM/cjs/Learn/神经网络预测.md"
+        - "theroy/MM/cjs/Learn/回归分析.md"
 
       - machine-learning:
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
         - 'theroy/machine-learning/二分类模型/二分类模型.md'
 
       - PC: 
-        - "theroy/PC/介绍.md"
+        - "theroy/PC/index.md"
         - 'theroy/PC/量子理论初步.md'
         - 'theroy/PC/原子结构与原子光谱.md'
         
