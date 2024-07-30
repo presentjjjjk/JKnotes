@@ -233,6 +233,7 @@ nav:
         - "theroy/MM/运筹与决策/线性规划求解实例.md"
         - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
         - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
+        - "theroy/MM/运筹与决策/动态规划.md"
         - "theroy/MM/运筹与决策/组合优化.md"
         - "theroy/MM/运筹与决策/遗传算法实例.md"
         - "theroy/MM/运筹与决策/禁忌搜索算法实例.md"
@@ -244,6 +245,7 @@ nav:
       - machine-learning:
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
         - 'theroy/machine-learning/二分类模型/二分类模型.md'
+        - 'theroy/machine-learning/二分类模型/过拟合与正则化.md'
 
       - PC: 
         - "theroy/PC/index.md"
@@ -252,12 +254,7 @@ nav:
         
   - MATH: 
       - "math/index.md"
-      - calculus:
-        - "math/calculus/介绍.md"
-        - "math/calculus/极限.md"
-        - "math/calculus/微分与导数.md"
-        - "math/calculus/级数.md"
-        - "math/calculus/积分.md"
+
 
 
         
