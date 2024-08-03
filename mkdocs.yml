@@ -106,6 +106,8 @@ plugins:
             polymer chemistry: 高分子化学(乙)
             machine-learning: 机器学习
             calculus: 微积分
+            miscellaneous: 杂项
+            quantum chemistry: 量子化学计算
 # Hooks - 讲真，这个东西我还没搞懂
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -143,7 +145,7 @@ extra:
   #     lang: zh
   social: # 社交媒体
     - icon: fontawesome/brands/github
-      link: https://github.com/Shuaiwen-Cui
+      link: https://github.com/presentjjjjk
   tags: # 自定义标签
     Default: default-tag
     Hardware: hardware-tag
@@ -250,10 +252,20 @@ nav:
       - PC: 
         - "theroy/PC/index.md"
         - 'theroy/PC/量子理论初步.md'
-        - 'theroy/PC/原子结构与原子光谱.md'
+        - 'theroy/PC/原子结构.md'
+        - 'theroy/PC/原子光谱.md'
+      - quantum chemistry:
+        - "theroy/量子化学计算/基组与矩阵.md"
+        - "theroy/量子化学计算/谐振子数值解.md"
+        - "theroy/量子化学计算/微扰理论.md"
+        - "theroy/量子化学计算/变分法.md"
+
         
   - MATH: 
       - "math/index.md"
+  - miscellaneous:
+      - "miscellaneous/index.md"
+  
 
 
 
