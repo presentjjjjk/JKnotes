@@ -15,7 +15,7 @@ copyright: ZJU JK
 theme:
   custom_dir: material/overrides # 自定义文件夹，对于个别页面，如果你不想使用主题的默认样式，可以在这里进行修改，使用里面的文件覆盖主题的默认文件。具体可以参考material官方文档。
   name: material # 主题名称，Material已经是最优秀的选择了，相信我。
-  logo: image/logo.png # logo 图片
+  #logo: image/logo.png # logo 图片
   language: zh # 默认语言
 
 
@@ -34,25 +34,25 @@ theme:
     - content.code.copy # 代码复制
   
   palette:
-    - media: "(prefers-color-scheme: light)" # 浅色
-      scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/theme-light-dark
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)" # 深色
-      scheme: slate
-      primary: black
-      accent: black
-      toggle:
-        icon: material/theme-light-dark
-        name: Switch to system preference
+      # Palette toggle for light mode
+      - scheme: default
+        primary: grey
+        accent: grey
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+      # Palette toggle for dark mode
+      - scheme: slate
+        primary: black
+        accent: black
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
       
   font:
     text: Noto Serif SC 
     code: Fira Code
-  favicon: image/logo.png # 网站图标 似乎不需要管
+  #favicon: image/logo.png # 网站图标 似乎不需要管
   icon: # 一些用到的icon
     logo: logo
     previous: fontawesome/solid/angle-left
@@ -230,19 +230,22 @@ nav:
 
       - MM:
         - "theroy/MM/index.md"
-        - "theroy/MM/图论/图论基础知识.md"
-        - "theroy/MM/运筹与决策/数学规划.md"
-        - "theroy/MM/运筹与决策/线性规划求解实例.md"
-        - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
-        - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
-        - "theroy/MM/运筹与决策/动态规划.md"
-        - "theroy/MM/运筹与决策/组合优化.md"
-        - "theroy/MM/运筹与决策/遗传算法实例.md"
-        - "theroy/MM/运筹与决策/禁忌搜索算法实例.md"
-        - "theroy/MM/运筹与决策/蚁群算法实例.md"
-        - "theroy/MM/cjs/Learn/马尔科夫预测模型.md"
-        - "theroy/MM/cjs/Learn/神经网络预测.md"
-        - "theroy/MM/cjs/Learn/回归分析.md"
+        - 运筹与决策:
+          - "theroy/MM/运筹与决策/数学规划.md"
+          - "theroy/MM/运筹与决策/线性规划求解实例.md"
+          - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
+          - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
+          - "theroy/MM/运筹与决策/动态规划.md"
+          - "theroy/MM/运筹与决策/组合优化.md"
+          - "theroy/MM/运筹与决策/遗传算法实例.md"
+          - "theroy/MM/运筹与决策/禁忌搜索算法实例.md"
+          - "theroy/MM/运筹与决策/蚁群算法实例.md"
+        - 图论:
+          - "theroy/MM/图论/图论基础知识.md"
+        - 预测类模型:
+          - "theroy/MM/cjs/Learn/马尔科夫预测模型.md"
+          - "theroy/MM/cjs/Learn/神经网络预测.md"
+          - "theroy/MM/cjs/Learn/回归分析.md"
 
       - machine-learning:
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
@@ -254,6 +257,7 @@ nav:
         - 'theroy/PC/量子理论初步.md'
         - 'theroy/PC/原子结构.md'
         - 'theroy/PC/原子光谱.md'
+        - 'theroy/PC/分子结构.md'
       - quantum chemistry:
         - "theroy/量子化学计算/基组与矩阵.md"
         - "theroy/量子化学计算/谐振子数值解.md"
@@ -294,7 +298,6 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - assets/javascripts/titlechange.js
   - assets/javascripts/glightbox.min.js
-  - assets/javascripts/click.js
   - assets/javascripts/galaxy.js
 
 
