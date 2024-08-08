@@ -232,6 +232,10 @@ nav:
         - "theroy/MM/index.md"
         - 微分方程:
           - "theroy/MM/微分方程/常微分方程.md"
+          - "theroy/MM/微分方程/偏微分方程.md"
+          - "theroy/MM/微分方程/差分方程.md"
+          - "theroy/MM/微分方程/常微分方程数值解.md"
+          - "theroy/MM/微分方程/有限差分法.md"
         - 运筹与决策:
           - "theroy/MM/运筹与决策/数学规划.md"
           - "theroy/MM/运筹与决策/线性规划求解实例.md"
