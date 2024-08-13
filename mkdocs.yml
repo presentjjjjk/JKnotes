@@ -36,8 +36,8 @@ theme:
   palette:
       # Palette toggle for light mode
       - scheme: default
-        primary: grey
-        accent: grey
+        primary: green
+        accent: green
         toggle:
           icon: material/brightness-7
           name: Switch to dark mode
@@ -244,9 +244,8 @@ nav:
           - "theroy/MM/运筹与决策/动态规划.md"
           - "theroy/MM/运筹与决策/组合优化.md"
           - "theroy/MM/运筹与决策/线性化.md"
-          - "theroy/MM/运筹与决策/遗传算法实例.md"
-          - "theroy/MM/运筹与决策/禁忌搜索算法实例.md"
-          - "theroy/MM/运筹与决策/蚁群算法实例.md"
+          - "theroy/MM/运筹与决策/智能优化算法实例.md"
+
         - 图论:
           - "theroy/MM/图论/图论基础知识.md"
         - 预测类模型:
