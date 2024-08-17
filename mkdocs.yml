@@ -95,19 +95,12 @@ plugins:
           name: 简体中文
           build: true
           nav_translations: # 导航栏翻译，不可以有缩进
-            HOME: 首页
-            ABOUT: 关于
-            MATH: 数学基础
-            ENGINEERING: 工程基础
-            THEROY: 理论基础
-            MM: 数学建模
-            PC: 物理化学
+            Math-Model: 数学建模
+            Physical-Chemistry: 物理化学
             chemical_engineering: 化工热力学
-            polymer chemistry: 高分子化学(乙)
-            machine-learning: 机器学习
-            calculus: 微积分
+            Machine-Learning: 机器学习
             miscellaneous: 杂项
-            quantum chemistry: 量子化学计算
+            Quantum-Chemistry: 量子化学计算
 # Hooks - 讲真，这个东西我还没搞懂
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -223,12 +216,11 @@ nav:
         - "engineer/化工热力学/均相封闭体系.md"
         - "engineer/化工热力学/均相敞开系统.md"
         - "engineer/化工热力学/非均相系统.md"
-      - polymer chemistry:
-        - 'engineer/高分子化学(乙)/3天速成高分子.md'
+
   - THEROY:
       - "theroy/index.md"
 
-      - MM:
+      - Math-Model:
         - "theroy/MM/index.md"
         - 微分方程:
           - "theroy/MM/微分方程/常微分方程.md"
@@ -244,6 +236,7 @@ nav:
           - "theroy/MM/运筹与决策/动态规划.md"
           - "theroy/MM/运筹与决策/组合优化.md"
           - "theroy/MM/运筹与决策/线性化.md"
+          - "theroy/MM/运筹与决策/智能优化算法补充.md"
           - "theroy/MM/运筹与决策/智能优化算法实例.md"
 
         - 图论:
@@ -252,19 +245,33 @@ nav:
           - "theroy/MM/cjs/Learn/马尔科夫预测模型.md"
           - "theroy/MM/cjs/Learn/神经网络预测.md"
           - "theroy/MM/cjs/Learn/回归分析.md"
+        - 杂项:
+          - "theroy/MM/杂项/2024浙大数模校赛A题.md"
 
-      - machine-learning:
+      - Machine-Learning:
+        - 'theroy/machine-learning/index.md'
         - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
         - 'theroy/machine-learning/二分类模型/二分类模型.md'
         - 'theroy/machine-learning/二分类模型/过拟合与正则化.md'
+        - 神经网络:
+          - 'theroy/machine-learning/神经网络模型/神经网络的基本概念.md'
+          - 'theroy/machine-learning/神经网络模型/Softmax.md'
+        - 'theroy/machine-learning/模型评估/模型评估.md'
+        - 'theroy/machine-learning/模型评估/准确率和召回率.md'
+        - 决策树:
+          - 'theroy/machine-learning/决策树/决策树.md'
+          - 'theroy/machine-learning/决策树/随机森林.md'
+        - Unsupervised learning:
+          - 'theroy/machine-learning/无监督学习/K-means聚类算法.md'
+          - 'theroy/machine-learning/无监督学习/异常检测.md'
 
-      - PC: 
+      - Physical-Chemistry: 
         - "theroy/PC/index.md"
         - 'theroy/PC/量子理论初步.md'
         - 'theroy/PC/原子结构.md'
         - 'theroy/PC/原子光谱.md'
         - 'theroy/PC/分子结构.md'
-      - quantum chemistry:
+      - Quantum-Chemistry:
         - "theroy/量子化学计算/基组与矩阵.md"
         - "theroy/量子化学计算/谐振子数值解.md"
         - "theroy/量子化学计算/微扰理论.md"
