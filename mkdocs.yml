@@ -242,9 +242,13 @@ nav:
         - 图论:
           - "theroy/MM/图论/图论基础知识.md"
         - 预测类模型:
-          - "theroy/MM/cjs/Learn/马尔科夫预测模型.md"
-          - "theroy/MM/cjs/Learn/神经网络预测.md"
-          - "theroy/MM/cjs/Learn/回归分析.md"
+          - "theroy/MM/cjs/Learn/markov.md"
+          - "theroy/MM/cjs/Learn/network.md"
+          - "theroy/MM/cjs/Learn/huigui.md"
+          - "theroy/MM/cjs/Learn/nolinear.md"
+          - "theroy/MM/cjs/Learn/logistic.md"
+          - "theroy/MM/cjs/Learn/grey.md"
+          - "theroy/MM/cjs/Learn/weifen.md"
         - 杂项:
           - "theroy/MM/杂项/2024浙大数模校赛A题.md"
 
