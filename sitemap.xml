@@ -225,18 +225,25 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2021%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
+        <lastmod>2024-08-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2021%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2021%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2022%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
+        <lastmod>2024-08-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2022%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2022%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2023%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
         <lastmod>2024-08-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2023%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2023%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
-        <lastmod>2024-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
     </url>
     <url>
         <loc>https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E6%B5%99%E5%A4%A7%E6%95%B0%E6%A8%A1%E6%A0%A1%E8%B5%9BA%E9%A2%98/</loc>
@@ -722,18 +729,25 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2021%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
+        <lastmod>2024-08-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2021%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2021%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2022%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
+        <lastmod>2024-08-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2022%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2022%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2023%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
         <lastmod>2024-08-23</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2023%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2023%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E5%9B%BD%E8%B5%9BB%E9%A2%98/</loc>
-        <lastmod>2024-08-23</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E5%9B%BD%E8%B5%9BB%E9%A2%98/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/MM/%E6%9D%82%E9%A1%B9/2024%E6%B5%99%E5%A4%A7%E6%95%B0%E6%A8%A1%E6%A0%A1%E8%B5%9BA%E9%A2%98/</loc>
