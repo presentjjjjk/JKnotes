@@ -1,40 +1,40 @@
 import numpy as np
 from scipy.optimize import fsolve
 
-# 定义方程组, R = 1
+from math import cos ,radians
+
+# 定义方程组
 def equations(vars):
     rho, theta = vars
-    R = 1  # 固定 R 为 1
-    eq1 = np.sqrt(3)/2 - (1 - np.cos(theta - 5*np.pi/9)) / np.sqrt(rho**2 + R**2 - 2*rho*R*np.cos(theta - 5*np.pi/9))
-    eq2 = np.sqrt(3)/2 - (1 - np.cos(theta + 5*np.pi/9)) / np.sqrt(rho**2 + R**2 - 2*rho*R*np.cos(theta + 5*np.pi/9))
-    return [eq1, eq2]
+    R = 1
+    theta_ij = 4 * np.pi / 9
+    cos_alpha_IO = np.sqrt(3) / 2
+    cos_alpha_JO = np.sqrt(3) / 2
+    cos_alpha_IJ = cos(radians(60))
+    
+    eq1 = (rho - R * np.cos(theta)) / np.sqrt(rho**2 - 2 * rho * R * np.cos(theta) + R**2) - cos_alpha_IO
+    eq2 = (rho - R * np.cos(theta - theta_ij)) / np.sqrt(rho**2 - 2 * rho * R * np.cos(theta - theta_ij) + R**2) - cos_alpha_JO
+    eq3 = (rho**2 - rho * R * np.cos(theta - theta_ij) - rho * R * np.cos(theta) + R**2 * np.cos(theta_ij)) / (
+          np.sqrt(rho**2 - 2 * rho * R * np.cos(theta) + R**2) * np.sqrt(rho**2 - 2 * rho * R * np.cos(theta - theta_ij) + R**2)
+          ) - cos_alpha_IJ
+    
+    return [eq1, eq2, eq3]
 
-# 定义更多样化的初始猜测值
-initial_guesses = [
-    [1, np.pi/4],
-    [2, np.pi/3],
-    [1, np.pi/6],
-    [0.5, np.pi/5],
-    [3, np.pi/7],
-    [0.1, np.pi/2],
-    [5, np.pi/9],
-    [10, np.pi/4],
-    [0.1, np.pi/3],
-    [2, np.pi/4],
-    [7, np.pi/3],
-    [0.1, np.pi/8],
-    [1, np.pi/9],
-    [0.01, np.pi/12],
-    [4, np.pi/2]
-]
+# 生成大量不同的初始值
+initial_guesses = [(rho_guess, theta_guess) for rho_guess in np.linspace(0, 2, 100) for theta_guess in np.linspace(0,  np.pi/2, 100)]
 
+# 求解并筛选非零解
 solutions = []
 for guess in initial_guesses:
-    solution = fsolve(equations, guess)
-    solutions.append(solution)
-    print(f"Initial guess: {guess}, Solution: {solution}")
+    try:
+        solution = fsolve(equations, guess)
+        print(f'Initial guess: {guess}, Solution: {solution}')  # 输出初始猜测值和求解结果
+        if not np.isclose(solution[0], 0):  # 过滤掉 rho 近似为零的解
+            solutions.append(solution)
+    except Exception as e:
+        print(f'Error with initial guess {guess}: {e}')  # 捕捉并输出异常
 
-# 检查解的唯一性
-unique_solutions = np.unique(np.round(solutions, decimals=5), axis=0)
-print(f"Number of unique solutions: {len(unique_solutions)}")
-print(f"Unique solutions: {unique_solutions}")
+# 去重，并输出非零解
+unique_solutions = np.unique(np.round(solutions, 6), axis=0)
+for sol in unique_solutions:
+    print(f'rho: {sol[0]:.6f}, theta: {sol[1]:.6f}')
