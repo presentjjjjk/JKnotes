@@ -138,8 +138,8 @@ def E(x0,y0,X,z,x_m,y_m):
 
         #蒙特卡洛模拟
         #x,y方向上随机取1000个点
-        x_random = np.random.uniform(-x_m/2, x_m/2, 1000)
-        y_random = np.random.uniform(-y_m/2, y_m/2, 1000)
+        x_random = np.random.uniform(-x_m/2, x_m/2, 50)
+        y_random = np.random.uniform(-y_m/2, y_m/2, 50)
 
         # 被判别定日镜的法向向量
 
@@ -158,7 +158,7 @@ def E(x0,y0,X,z,x_m,y_m):
         total_true=0
         
         # 开始对这个定日镜执行遮挡判别
-        for i in range(1000):
+        for i in range(50):
             H_0=np.array([x_random[i],y_random[i],0])
             # 先变换到地面系
             H_1=np.dot(T_A,H_0)+np.array([x,y,z])
@@ -223,7 +223,7 @@ def E(x0,y0,X,z,x_m,y_m):
         
         # 返回阴影遮挡率:
 
-        return 1-total_true/2000
+        return 1-total_true/100
                 
     # 截断效率
 
@@ -346,7 +346,7 @@ def E(x0,y0,X,z,x_m,y_m):
     # 年平均输出热功率
     E_mean=sum(E)/12
 
-    return E_mean
+    return E_mean,eta_t,eta_c,eta_zhe,eta_jie,P
 
 
 # 粒子群优化
@@ -369,8 +369,9 @@ def objective_function(x):
         X = x[i, 5:].reshape((k, 2))  # 重塑为 k*2 的矩阵
 
         # 计算目标函数值，并取负数以进行最小化
-        result = -E(x0, y0, X, z, x_m, y_m)
-        results.append(result)
+        E_mean, _, _, _, _ ,_= E(x0, y0, X, z, x_m, y_m)
+        results.append(-E_mean)  # 因为是最小化，取负值
+
     
     return np.array(results)  # 返回结果数组，每个粒子的目标函数值
 
@@ -378,7 +379,7 @@ def objective_function(x):
 
 
 k = 1745  # 初始定日镜个数
-min_k = 1000  # 最小允许的定日镜个数
+min_k = 100  # 最小允许的定日镜个数
 step = 20  # 初始步长
 tolerance = 1e-4  # 误差容忍度
 previous_cost = float('inf')  # 上一次迭代的最优成本
@@ -392,7 +393,7 @@ while k >= min_k:
     optimizer = ps.single.GlobalBestPSO(n_particles=50, dimensions=dimensions, options=options, bounds=bounds)
 
     # 执行优化
-    best_cost, best_pos = optimizer.optimize(objective_function, iters=200)
+    best_cost, best_pos = optimizer.optimize(objective_function, iters=100)
 
     # 判断是否达到目标输出功率
     if -best_cost >= 60000:
@@ -418,6 +419,32 @@ while k >= min_k:
         y_m_best = best_pos[4]
         X_best = best_pos[5:].reshape((k, 2))
 
+        E_mean_best, eta_t_best, eta_c_best, eta_zhe_best, eta_jie_best ,P_best= E(x0_best, y0_best, X_best, z_best, x_m_best, y_m_best)
+
+        # 日期标签
+        dates = ["1月21日", "2月21日", "3月21日", "4月21日", "5月21日", 
+                "6月21日", "7月21日", "8月21日", "9月21日", "10月21日", 
+                "11月21日", "12月21日"]
+
+        # 将结果填入表格
+        data = {
+            "日期": dates,
+            "平均光学效率": eta_t_best,
+            "平均余弦效率": eta_c_best,
+            "平均阴影遮挡效率": eta_zhe_best,
+            "平均截断效率": eta_jie_best,
+            "单位面积镜面平均输出热功率 (kW/m²)": P_best
+        }
+
+        # 创建DataFrame
+        df_result = pd.DataFrame(data)
+
+        # 将结果保存为Excel文件
+        output_file_path = r'D:\桌面\输出结果表格2.xlsx'
+        df_result.to_excel(output_file_path, index=False)
+
+        print(f"表格已成功生成并保存为 {output_file_path}")
+
         print('最小定日镜个数:', k)
         print('输出功率:best_cost:', -best_cost)
         print(f'Best x0: {x0_best}')
@@ -426,6 +453,15 @@ while k >= min_k:
         print(f'Best x_m: {x_m_best}')
         print(f'Best y_m: {y_m_best}')
         print(f'Best X: \n{X_best}')
+
+        # 创建一个 DataFrame 来存储 X_best
+        df_best = pd.DataFrame(X_best, columns=[f'Param_{i+1}' for i in range(X_best.shape[1])])
+
+        # 保存 DataFrame 到 Excel 文件
+        output_file_path = r'D:\桌面\X_best_results.xlsx'
+        df_best.to_excel(output_file_path, index=False)
+
+        print(f'最佳解已保存到 {output_file_path}')
 
         # 获取代价函数历史数据
         cost_history = optimizer.cost_history
