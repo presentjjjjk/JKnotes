@@ -148,8 +148,8 @@ def eta_trunc(D,ST,zuobiao,Y):
 
     #蒙特卡洛模拟
     #x,y方向上随机取5000个点
-    x_random = np.random.uniform(-3, 3, 1000)
-    y_random = np.random.uniform(-3, 3, 1000)
+    x_random = np.random.uniform(-3, 3, 10)
+    y_random = np.random.uniform(-3, 3, 10)
 
     # 被判别定日镜的法向向量
 
@@ -168,7 +168,7 @@ def eta_trunc(D,ST,zuobiao,Y):
     total_true=0
     
     # 开始对这个定日镜执行遮挡判别
-    for i in range(1000):
+    for i in range(10):
         H_0=np.array([x_random[i],y_random[i],0])
         # 先变换到地面系
         H_1=np.dot(T_A,H_0)+np.array([x,y,z])
@@ -233,7 +233,7 @@ def eta_trunc(D,ST,zuobiao,Y):
     
     # 返回阴影遮挡率:
 
-    return 1-total_true/2000
+    return 1-total_true/20
             
 # 截断效率
 
