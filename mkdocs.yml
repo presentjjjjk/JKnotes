@@ -34,23 +34,22 @@ theme:
     - content.code.copy # 代码复制
   
   palette:
-      # Palette toggle for light mode
-      - scheme: default
-        primary: green
-        accent: green
-        toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
-      # Palette toggle for dark mode
-      - scheme: slate
-        primary: black
-        accent: black
-        toggle:
-          icon: material/brightness-4
-          name: Switch to light mode
-      
+    - scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/theme-light-dark
+        name: 深色模式
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/theme-light-dark
+        name: 浅色模式
+
+     
   font:
-    text: Noto Serif SC 
+    text: Noto Sans SC
     code: Fira Code
   #favicon: image/logo.png # 网站图标 似乎不需要管
   icon: # 一些用到的icon
@@ -209,7 +208,6 @@ nav:
         - "README2.md"
       
   - ENGINEERING:
-      - 'engineer/index.md'
       - chemical_engineering:
         - "engineer/化工热力学/index.md"
         - "engineer/化工热力学/状态方程.md"
@@ -218,8 +216,6 @@ nav:
         - "engineer/化工热力学/非均相系统.md"
 
   - THEROY:
-      - "theroy/index.md"
-
       - Math-Model:
         - "theroy/MM/index.md"
         - 微分方程:
@@ -228,20 +224,37 @@ nav:
           - "theroy/MM/微分方程/差分方程.md"
           - "theroy/MM/微分方程/常微分方程数值解.md"
           - "theroy/MM/微分方程/有限差分法.md"
-        - 运筹与决策:
-          - "theroy/MM/运筹与决策/数学规划.md"
-          - "theroy/MM/运筹与决策/线性规划求解实例.md"
-          - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
-          - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
-          - "theroy/MM/运筹与决策/动态规划.md"
-          - "theroy/MM/运筹与决策/组合优化.md"
-          - "theroy/MM/运筹与决策/线性化.md"
-          - "theroy/MM/运筹与决策/智能优化算法补充.md"
-          - "theroy/MM/运筹与决策/智能优化算法实例.md"
+          - "theroy/MM/微分方程/插值.md"
+        - 优化:
+          - 规划:
+            - "theroy/MM/运筹与决策/数学规划.md"
+            - "theroy/MM/运筹与决策/多目标规划/多目标规划.md"
+            - "theroy/MM/运筹与决策/组合优化.md"
+            - "theroy/MM/运筹与决策/动态规划.md"
+            - "theroy/MM/运筹与决策/智能优化算法补充.md"
+            - "theroy/MM/运筹与决策/SVM/支持向量机.md"
+          - 图论:
+            - "theroy/MM/图论/图论基础知识.md"
+            - "theroy/MM/图论/图论相关算法.md"
+          - 求解实例:
+            - "theroy/MM/运筹与决策/线性规划求解实例.md"
+            - "theroy/MM/运筹与决策/非线性规划求解实例及算法.md"
+            - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
+            - "theroy/MM/运筹与决策/线性化.md"
+            - "theroy/MM/运筹与决策/智能优化算法实例.md"
 
-        - 图论:
-          - "theroy/MM/图论/图论基础知识.md"
-        - 预测类模型:
+        - 统计:
+          - 数理统计基础:
+            - "theroy/MM/统计/数理统计基础/index.md"
+            - "theroy/MM/统计/数理统计基础/大数定律与中心极限定理.md"
+            - "theroy/MM/统计/数理统计基础/抽样分布.md"
+            - "theroy/MM/统计/数理统计基础/参数估计.md"
+            - "theroy/MM/统计/数理统计基础/假设检验.md"
+          - 多元分析:
+            - "theroy/MM/统计/多元分析/多元分析.md"
+
+
+        - 预测:
           - "theroy/MM/cjs/Learn/markov.md"
           - "theroy/MM/cjs/Learn/network.md"
           - "theroy/MM/cjs/Learn/huigui.md"
@@ -251,23 +264,33 @@ nav:
           - "theroy/MM/cjs/Learn/weifen.md"
         - 杂项:
           - "theroy/MM/杂项/2024浙大数模校赛A题.md"
+          - "theroy/MM/杂项/2023国赛B题.md"
+          - "theroy/MM/杂项/2022国赛B题.md"
+          - "theroy/MM/杂项/2023国赛A题.md"
+          - "theroy/MM/杂项/2022年A题.md"
+          - "theroy/MM/杂项/2021A题/2021国赛A题.md"
 
       - Machine-Learning:
         - 'theroy/machine-learning/index.md'
-        - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
-        - 'theroy/machine-learning/二分类模型/二分类模型.md'
-        - 'theroy/machine-learning/二分类模型/过拟合与正则化.md'
-        - 神经网络:
-          - 'theroy/machine-learning/神经网络模型/神经网络的基本概念.md'
-          - 'theroy/machine-learning/神经网络模型/Softmax.md'
-        - 'theroy/machine-learning/模型评估/模型评估.md'
-        - 'theroy/machine-learning/模型评估/准确率和召回率.md'
-        - 决策树:
-          - 'theroy/machine-learning/决策树/决策树.md'
-          - 'theroy/machine-learning/决策树/随机森林.md'
-        - Unsupervised learning:
+        - 监督学习:
+          - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
+          - 'theroy/machine-learning/二分类模型/二分类模型.md'
+          - 'theroy/machine-learning/二分类模型/过拟合与正则化.md'
+          - 神经网络:
+            - 'theroy/machine-learning/神经网络模型/神经网络的基本概念.md'
+            - 'theroy/machine-learning/神经网络模型/Softmax.md'
+          - 'theroy/machine-learning/模型评估/模型评估.md'
+          - 'theroy/machine-learning/模型评估/准确率和召回率.md'
+          - 决策树:
+            - 'theroy/machine-learning/决策树/决策树.md'
+            - 'theroy/machine-learning/决策树/随机森林.md'
+        - 无监督学习:
           - 'theroy/machine-learning/无监督学习/K-means聚类算法.md'
           - 'theroy/machine-learning/无监督学习/异常检测.md'
+        - 强化学习:
+          - 'theroy/machine-learning/强化学习/强化学习.md'
+          - 'theroy/machine-learning/强化学习/深度强化学习.md'
+
 
       - Physical-Chemistry: 
         - "theroy/PC/index.md"
@@ -276,14 +299,33 @@ nav:
         - 'theroy/PC/原子光谱.md'
         - 'theroy/PC/分子结构.md'
       - Quantum-Chemistry:
-        - "theroy/量子化学计算/基组与矩阵.md"
-        - "theroy/量子化学计算/谐振子数值解.md"
-        - "theroy/量子化学计算/微扰理论.md"
-        - "theroy/量子化学计算/变分法.md"
-
-        
+        - 量化理论:
+          - "theroy/量子化学计算/基组与矩阵.md"
+          - "theroy/量子化学计算/谐振子数值解.md"
+          - "theroy/量子化学计算/微扰理论.md"
+          - "theroy/量子化学计算/变分法.md"
+          - "theroy/量子化学计算/电子自旋.md"
+          - "theroy/量子化学计算/B-O近似.md"
+          - "theroy/量子化学计算/Hartree-Fock 方法.md"
+        - 计算软件:
+          - pyscf:
+            - "theroy/量子化学计算/pyscf/pyscf入门.md"
+        - Linux学习:
+          - "theroy/量子化学计算/linux学习/启用wsl.md" 
+  
+  - CS:
+      - 数据结构与算法:
+        - CS/数据结构与算法/复杂度分析.md
+    
   - MATH: 
-      - "math/index.md"
+
+      - 数理方法:
+        - 傅里叶变换:
+          - 'math/数理方法/傅里叶变换/傅里叶级数与傅里叶积分.md'
+          - 'math/数理方法/傅里叶变换/傅里叶变换.md'
+        - 拉普拉斯变换:
+          - 'math/数理方法/拉普拉斯变换/拉普拉斯变换.md'
+          - 'math/数理方法/拉普拉斯变换/拉普拉斯变换应用.md'
   - miscellaneous:
       - "miscellaneous/index.md"
   

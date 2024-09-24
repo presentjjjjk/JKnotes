@@ -1,29 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai&display=swap');
 
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'LXGW WenKai', serif;
 }
-
-
-/* 覆盖 MkDocs 提供的 note, tip, question, info 框的字体样式 */
-.md-typeset .admonition,
-.md-typeset .admonition-title,
-.md-typeset .note,
-.md-typeset .tip,
-.md-typeset .question,
-.md-typeset .info,
-.md-typeset .warning,
-.md-typeset .danger,
-.md-typeset .sucess,
-.md-typeset .quote,
-.md-typeset .admonition-content {
-    font-family: 'LXGW WenKai', serif !important;  /* 强制使用 “LXGW WenKai” 字体 */
-    font-size: 95% !important;
-}
-
 
 
 .md-typeset div.arithmatex {
@@ -33,6 +14,7 @@ body {
 h1~p {
   text-indent: 30px;
 }
+
 
 img {
   border-radius: 10px;
