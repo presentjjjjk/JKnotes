@@ -277,7 +277,9 @@ mol.nucmod = {'O1': 1} # nuclear charge model: 0-point charge, 1-Gaussian distri
 
 ### 调用一些积分
 
-这个暂时不是很懂,这些积分应该是手动实现计算方法的时候构建哈密顿量需要调用的:
+pyscf库中提供的电子空间轨道(注意不是自旋轨道)的单电子积分和双电子积分,这些积分可以用来构建Hartree-Fock方程,在pyscf中,这些积分通过`intor`方法调用:
+
+虽然scf方法已经集成化了,但是有的时候还是需要自己手动调用一些积分来完成我们的目的.
 
 ```python
 kin = mol.intor('int1e_kin')
@@ -295,9 +297,9 @@ mol.atom = [['O',(0, 0, 0)], ['H',(0, 1, 0)], ['H',(0, 0, 1)]]
 mol.atom = (('O',numpy.zeros(3)), ['H', 0, 1, 0], ['H',[0, 0, 1]])
 ```
 
-以及可以读入.xyz文件的坐标来构建分子:
+以及 **可以读入.xyz文件的坐标** 来构建分子:
 
 ```python
-mol = gto.M(atom="my_molecule.xyz")
+mol = gto.M(atom=open("my_molecule.xyz").read())
 ```
 
