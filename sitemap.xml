@@ -617,6 +617,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/DFT%E8%AE%A1%E7%AE%97/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/post-HF%E6%96%B9%E6%B3%95/</loc>
+        <lastmod>2024-10-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/post-HF%E6%96%B9%E6%B3%95/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/post-HF%E6%96%B9%E6%B3%95/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/pyscf%E5%85%A5%E9%97%A8/</loc>
         <lastmod>2024-10-19</lastmod>
         <changefreq>daily</changefreq>
@@ -1336,6 +1343,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/DFT%E8%AE%A1%E7%AE%97/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/DFT%E8%AE%A1%E7%AE%97/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/en/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/post-HF%E6%96%B9%E6%B3%95/</loc>
+        <lastmod>2024-10-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/en/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/post-HF%E6%96%B9%E6%B3%95/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/post-HF%E6%96%B9%E6%B3%95/"/>
     </url>
     <url>
         <loc>https://localhost:8000/en/theroy/%E9%87%8F%E5%AD%90%E5%8C%96%E5%AD%A6%E8%AE%A1%E7%AE%97/pyscf/pyscf%E5%85%A5%E9%97%A8/</loc>
