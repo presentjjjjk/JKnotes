@@ -85,25 +85,11 @@ plugins:
       reconfigure_material: true # 抄来的，不太懂
       reconfigure_search: true # 抄来的，不太懂
       languages: # 多语言配置 - 需要小心一点
-        - locale: en
-          name: English
-          build: true # 是否构建
-          # site_name: Infinity
         - locale: zh
           default: true # 默认语言
           name: 简体中文
           build: true
-          nav_translations: # 导航栏翻译，不可以有缩进
-            Math-Model: 数学建模
-            Physical-Chemistry: 物理化学
-            chemical_engineering: 化工热力学
-            Machine-Learning: 机器学习
-            miscellaneous: 杂项
-            Quantum-Chemistry: 量子化学计算
-# Hooks - 讲真，这个东西我还没搞懂
-# hooks:
-#   - material/overrides/hooks/shortcodes.py
-#   - material/overrides/hooks/translations.py
+
 
 # 额外配置项
 extra:
@@ -204,11 +190,9 @@ markdown_extensions: # markdown extensions
 nav: 
   - HOME: 
       - "index.md"
-      - ABOUT: 
-        - "README2.md"
       
-  - ENGINEERING:
-      - chemical_engineering:
+  - Chemical Engineering:
+      - 化工热力学:
         - "engineer/化工热力学/index.md"
         - "engineer/化工热力学/状态方程.md"
         - "engineer/化工热力学/均相封闭体系.md"
@@ -218,16 +202,17 @@ nav:
         - "engineer/化学反应工程/均相反应动力学.md"
         - "engineer/化学反应工程/反应器的设计.md"
         - "engineer/化学反应工程/复合反应概述.md"
+        - "engineer/化学反应工程/温度和压力效应.md"
+        - "engineer/化学反应工程/生化反应.md"
 
-  - THEROY:
-      - Math-Model:
+  - Mathematical Modeling:
+      - 数学建模:
         - "theroy/MM/index.md"
         - 微分方程:
           - "theroy/MM/微分方程/常微分方程.md"
           - "theroy/MM/微分方程/偏微分方程.md"
           - "theroy/MM/微分方程/差分方程.md"
-          - "theroy/MM/微分方程/常微分方程数值解.md"
-          - "theroy/MM/微分方程/有限差分法.md"
+          - "theroy/MM/微分方程/微分方程数值解.md"
           - "theroy/MM/微分方程/插值.md"
         - 优化:
           - 规划:
@@ -238,25 +223,10 @@ nav:
             - "theroy/MM/运筹与决策/非线性规划.md"
             - "theroy/MM/运筹与决策/智能优化算法补充.md"
             - "theroy/MM/运筹与决策/SVM/支持向量机.md"
+            - "theroy/MM/运筹与决策/线性化方法.md"
           - 图论:
             - "theroy/MM/图论/图论基础知识.md"
             - "theroy/MM/图论/图论相关算法.md"
-          - 求解实例:
-            - "theroy/MM/运筹与决策/线性规划求解实例.md"
-            - "theroy/MM/运筹与决策/整数规划实例及其求解.md"
-            - "theroy/MM/运筹与决策/线性化.md"
-            - "theroy/MM/运筹与决策/智能优化算法实例.md"
-
-        - 统计:
-          - 数理统计基础:
-            - "theroy/MM/统计/数理统计基础/index.md"
-            - "theroy/MM/统计/数理统计基础/大数定律与中心极限定理.md"
-            - "theroy/MM/统计/数理统计基础/抽样分布.md"
-            - "theroy/MM/统计/数理统计基础/参数估计.md"
-            - "theroy/MM/统计/数理统计基础/假设检验.md"
-          - 多元分析:
-            - "theroy/MM/统计/多元分析/多元分析.md"
-
 
         - 预测:
           - "theroy/MM/cjs/Learn/markov.md"
@@ -266,8 +236,26 @@ nav:
           - "theroy/MM/cjs/Learn/logistic.md"
           - "theroy/MM/cjs/Learn/grey.md"
           - "theroy/MM/cjs/Learn/weifen.md"
+      
+      - 数理方法:
+        - 傅里叶变换:
+          - 'math/数理方法/傅里叶变换/傅里叶级数与傅里叶积分.md'
+          - 'math/数理方法/傅里叶变换/傅里叶变换.md'
+        - 拉普拉斯变换:
+          - 'math/数理方法/拉普拉斯变换/拉普拉斯变换.md'
 
-      - Machine-Learning:
+      
+      - 复变函数:
+        - 'math/复变函数/复变函数.md'
+        - 'math/复变函数/复积分.md'
+        - 'math/复变函数/级数.md'
+        - 'math/复变函数/留数.md'
+        - 'math/复变函数/保角映射.md'
+
+
+     
+  - Machine Learning:
+      - 机器学习:
         - 'theroy/machine-learning/index.md'
         - 监督学习:
           - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
@@ -288,57 +276,47 @@ nav:
           - 'theroy/machine-learning/强化学习/强化学习.md'
           - 'theroy/machine-learning/强化学习/深度强化学习.md'
 
-
-      - Physical-Chemistry: 
-        - "theroy/PC/index.md"
-        - 'theroy/PC/量子理论初步.md'
-        - 'theroy/PC/原子结构.md'
-        - 'theroy/PC/原子光谱.md'
-        - 'theroy/PC/分子结构.md'
-      - Quantum-Chemistry:
-        - 量化理论:
-          - "theroy/量子化学计算/量化理论/基组与矩阵.md"
-          - "theroy/量子化学计算/量化理论/谐振子数值解.md"
-          - "theroy/量子化学计算/量化理论/微扰理论.md"
-          - "theroy/量子化学计算/量化理论/变分法.md"
-          - "theroy/量子化学计算/量化理论/电子自旋.md"
-          - "theroy/量子化学计算/量化理论/B-O近似.md"
-          - "theroy/量子化学计算/量化理论/Hartree-Fock 方法.md"
-          - "theroy/量子化学计算/量化理论/密度泛函理论.md"
-          - "theroy/量子化学计算/量化理论/组态相关.md"
-          - "theroy/量子化学计算/量化理论/活性空间,耦合簇以及MP微扰.md"
-        - 计算软件:
-          - pyscf:
-            - "theroy/量子化学计算/pyscf/pyscf入门.md"
-            - "theroy/量子化学计算/pyscf/输入输出和结构优化.md"
-            - "theroy/量子化学计算/pyscf/关于scf的更多设置.md"
-            - "theroy/量子化学计算/pyscf/DFT计算.md"
-            - "theroy/量子化学计算/pyscf/计算电子密度.md"
-            - "theroy/量子化学计算/pyscf/周期性体系.md"
-        - Linux基本操作:
-          - "theroy/量子化学计算/linux学习/启用wsl.md" 
-          
-  
-  - CS:
-      - 数据结构与算法:
-        - CS/数据结构与算法/复杂度分析.md
       - Python:
         - 面向对象:
           - CS/Python/面向对象/面向对象.md
     
-  - MATH: 
+  - Theoretical and Computational Chemistry:
 
-      - 数理方法:
-        - 傅里叶变换:
-          - 'math/数理方法/傅里叶变换/傅里叶级数与傅里叶积分.md'
-          - 'math/数理方法/傅里叶变换/傅里叶变换.md'
-        - 拉普拉斯变换:
-          - 'math/数理方法/拉普拉斯变换/拉普拉斯变换.md'
-          - 'math/数理方法/拉普拉斯变换/拉普拉斯变换应用.md'
-      - 复变函数与积分变换:
-        - 'math/复变函数与积分变换/复变函数.md'
-        - 'math/复变函数与积分变换/复积分.md'
-        - 'math/复变函数与积分变换/级数.md'
+    - Physical Chemistry(Atkins): 
+      - 'theroy/PC/量子理论初步.md'
+      - 'theroy/PC/原子结构.md'
+      - 'theroy/PC/原子光谱.md'
+      - 'theroy/PC/分子结构.md'
+
+    - 现代电子结构理论:
+      - "theroy/量子化学计算/量化理论/基组与矩阵.md"
+      - "theroy/量子化学计算/量化理论/谐振子数值解.md"
+      - "theroy/量子化学计算/量化理论/微扰理论.md"
+      - "theroy/量子化学计算/量化理论/变分法.md"
+      - "theroy/量子化学计算/量化理论/电子自旋.md"
+      - "theroy/量子化学计算/量化理论/B-O近似.md"
+      - "theroy/量子化学计算/量化理论/Hartree-Fock 方法.md"
+      - "theroy/量子化学计算/量化理论/密度泛函理论.md"
+      - "theroy/量子化学计算/量化理论/组态相关.md"
+      - "theroy/量子化学计算/量化理论/活性空间,耦合簇以及MP微扰.md"
+    - 计算软件:
+      - pyscf:
+        - "theroy/量子化学计算/pyscf/pyscf入门.md"
+        - "theroy/量子化学计算/pyscf/输入输出和结构优化.md"
+        - "theroy/量子化学计算/pyscf/关于scf的更多设置.md"
+        - "theroy/量子化学计算/pyscf/DFT计算.md"
+        - "theroy/量子化学计算/pyscf/计算电子密度.md"
+        - "theroy/量子化学计算/pyscf/周期性体系.md"
+        - "theroy/量子化学计算/pyscf/post-HF方法.md"
+      - ORCA:
+        - "theroy/量子化学计算/ORCA/ORCA相关网站和资料(持续更新).md"
+        - "theroy/量子化学计算/ORCA/输入.md"
+        - "theroy/量子化学计算/ORCA/单点能计算和几何结构优化.md"
+        - "theroy/量子化学计算/ORCA/弱相互作用.md"
+    - Linux基本操作:
+      - "theroy/量子化学计算/linux学习/启用wsl.md" 
+      - "theroy/量子化学计算/linux学习/linux基本命令.md"
+
         
 
 

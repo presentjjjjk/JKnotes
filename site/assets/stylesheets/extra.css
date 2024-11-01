@@ -1,11 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai&display=swap');
-
-
-body {
-  font-family: 'LXGW WenKai', serif;
-}
-
 
 .md-typeset div.arithmatex {
   overflow-y: hidden;
@@ -47,11 +40,6 @@ a:active {
   text-decoration: underline;
 }
 
-strong {
-  text-shadow: 0.7px 0px;
-  /* text-shadow: 0 0 1px #ffffff; */
-
-}
 
 /* 
 #animation {
