@@ -204,38 +204,37 @@ nav:
         - "engineer/化学反应工程/复合反应概述.md"
         - "engineer/化学反应工程/温度和压力效应.md"
         - "engineer/化学反应工程/生化反应.md"
+        - "engineer/化学反应工程/非理想流动.md"
 
   - Mathematical Modeling:
       - 数学建模:
-        - "theroy/MM/index.md"
+        - "math/MM/index.md"
         - 微分方程:
-          - "theroy/MM/微分方程/常微分方程.md"
-          - "theroy/MM/微分方程/偏微分方程.md"
-          - "theroy/MM/微分方程/差分方程.md"
-          - "theroy/MM/微分方程/微分方程数值解.md"
-          - "theroy/MM/微分方程/插值.md"
+          - "math/MM/微分方程/常微分方程.md"
+          - "math/MM/微分方程/偏微分方程.md"
+          - "math/MM/微分方程/差分方程.md"
+          - "math/MM/微分方程/微分方程数值解.md"
+          - "math/MM/微分方程/插值.md"
         - 优化:
-          - 规划:
-            - "theroy/MM/运筹与决策/数学规划.md"
-            - "theroy/MM/运筹与决策/多目标规划/多目标规划.md"
-            - "theroy/MM/运筹与决策/组合优化.md"
-            - "theroy/MM/运筹与决策/动态规划.md"
-            - "theroy/MM/运筹与决策/非线性规划.md"
-            - "theroy/MM/运筹与决策/智能优化算法补充.md"
-            - "theroy/MM/运筹与决策/SVM/支持向量机.md"
-            - "theroy/MM/运筹与决策/线性化方法.md"
+          - 数学规划:
+            - "math/MM/运筹与决策/数学规划.md"
+            - "math/MM/运筹与决策/多目标规划/多目标规划.md"
+            - "math/MM/运筹与决策/组合优化.md"
+            - "math/MM/运筹与决策/动态规划.md"
+            - "math/MM/运筹与决策/非线性规划.md"
+            - "math/MM/运筹与决策/智能优化算法补充.md"
+            - "math/MM/运筹与决策/SVM/支持向量机.md"
+            - "math/MM/运筹与决策/线性化方法.md"
           - 图论:
-            - "theroy/MM/图论/图论基础知识.md"
-            - "theroy/MM/图论/图论相关算法.md"
+            - "math/MM/图论/图论基础知识.md"
+            - "math/MM/图论/图论相关算法.md"
 
         - 预测:
-          - "theroy/MM/cjs/Learn/markov.md"
-          - "theroy/MM/cjs/Learn/network.md"
-          - "theroy/MM/cjs/Learn/huigui.md"
-          - "theroy/MM/cjs/Learn/nolinear.md"
-          - "theroy/MM/cjs/Learn/logistic.md"
-          - "theroy/MM/cjs/Learn/grey.md"
-          - "theroy/MM/cjs/Learn/weifen.md"
+          - "math/MM/cjs/Learn/马尔科夫模型.md"
+          - "math/MM/cjs/Learn/神经网络预测模型.md"
+          - "math/MM/cjs/Learn/回归分析.md"
+          - "math/MM/cjs/Learn/G(1,1)灰色预测模型.md"
+          - "math/MM/cjs/Learn/微分方程预测模型.md"
       
       - 数理方法:
         - 傅里叶变换:
@@ -254,27 +253,33 @@ nav:
 
 
      
-  - Machine Learning:
+  - Computer Science:
       - 机器学习:
-        - 'theroy/machine-learning/index.md'
+        - 'CS/machine-learning/index.md'
         - 监督学习:
-          - 'theroy/machine-learning/线性回归模型/线性回归模型.md'
-          - 'theroy/machine-learning/二分类模型/二分类模型.md'
-          - 'theroy/machine-learning/二分类模型/过拟合与正则化.md'
+          - 'CS/machine-learning/线性回归模型/线性回归模型.md'
+          - 'CS/machine-learning/二分类模型/二分类模型.md'
+          - 'CS/machine-learning/二分类模型/过拟合与正则化.md'
           - 神经网络:
-            - 'theroy/machine-learning/神经网络模型/神经网络的基本概念.md'
-            - 'theroy/machine-learning/神经网络模型/Softmax.md'
-          - 'theroy/machine-learning/模型评估/模型评估.md'
-          - 'theroy/machine-learning/模型评估/准确率和召回率.md'
+            - 'CS/machine-learning/神经网络模型/神经网络的基本概念.md'
+            - 'CS/machine-learning/神经网络模型/Softmax.md'
+          - 'CS/machine-learning/模型评估/模型评估.md'
+          - 'CS/machine-learning/模型评估/准确率和召回率.md'
           - 决策树:
-            - 'theroy/machine-learning/决策树/决策树.md'
-            - 'theroy/machine-learning/决策树/随机森林.md'
+            - 'CS/machine-learning/决策树/决策树.md'
+            - 'CS/machine-learning/决策树/随机森林.md'
         - 无监督学习:
-          - 'theroy/machine-learning/无监督学习/K-means聚类算法.md'
-          - 'theroy/machine-learning/无监督学习/异常检测.md'
+          - 'CS/machine-learning/无监督学习/K-means聚类算法.md'
+          - 'CS/machine-learning/无监督学习/异常检测.md'
         - 强化学习:
-          - 'theroy/machine-learning/强化学习/强化学习.md'
-          - 'theroy/machine-learning/强化学习/深度强化学习.md'
+          - 'CS/machine-learning/强化学习/强化学习.md'
+          - 'CS/machine-learning/强化学习/深度强化学习.md'
+      
+      - 深度学习:
+        - 'CS/deep-learning/index.md'
+        - 'CS/deep-learning/反向传播算法/反向传播算法.md'
+        - 'CS/deep-learning/减少过拟合的方法/减少过拟合的方法.md'
+        - 'CS/deep-learning/加速神经网络的训练/加速神经网络的训练.md'
 
       - Python:
         - 面向对象:
@@ -301,6 +306,7 @@ nav:
       - "theroy/量子化学计算/量化理论/活性空间,耦合簇以及MP微扰.md"
     - 计算软件:
       - pyscf:
+        - "theroy/量子化学计算/pyscf/index.md"
         - "theroy/量子化学计算/pyscf/pyscf入门.md"
         - "theroy/量子化学计算/pyscf/输入输出和结构优化.md"
         - "theroy/量子化学计算/pyscf/关于scf的更多设置.md"
@@ -313,6 +319,10 @@ nav:
         - "theroy/量子化学计算/ORCA/输入.md"
         - "theroy/量子化学计算/ORCA/单点能计算和几何结构优化.md"
         - "theroy/量子化学计算/ORCA/弱相互作用.md"
+      - Gaussian:
+        - "theroy/量子化学计算/Gaussian/Gaussian相关网站和资料(持续更新).md"
+        - "theroy/量子化学计算/Gaussian/单点能计算.md"
+        - "theroy/量子化学计算/Gaussian/结构优化.md"
     - Linux基本操作:
       - "theroy/量子化学计算/linux学习/启用wsl.md" 
       - "theroy/量子化学计算/linux学习/linux基本命令.md"
