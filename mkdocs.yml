@@ -321,6 +321,7 @@ nav:
         - "theroy/量子化学计算/ORCA/弱相互作用.md"
       - Gaussian:
         - "theroy/量子化学计算/Gaussian/Gaussian相关网站和资料(持续更新).md"
+        - "theroy/量子化学计算/Gaussian/Gaussian入门.md"
         - "theroy/量子化学计算/Gaussian/单点能计算.md"
         - "theroy/量子化学计算/Gaussian/结构优化.md"
     - Linux基本操作:
