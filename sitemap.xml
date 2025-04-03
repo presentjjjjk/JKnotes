@@ -373,6 +373,24 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/Physical%20Chemistry/%E9%87%8F%E5%AD%90%E7%90%86%E8%AE%BA%E5%88%9D%E6%AD%A5/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/theroy/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F/HyperChem/</loc>
+        <lastmod>2025-04-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F/HyperChem/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/theroy/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F/%E5%88%86%E5%AD%90%E5%8A%9B%E5%9C%BA/</loc>
+        <lastmod>2025-04-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F/%E5%88%86%E5%AD%90%E5%8A%9B%E5%9C%BA/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/theroy/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/</loc>
+        <lastmod>2025-04-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/theroy/%E5%88%86%E5%AD%90%E6%A8%A1%E6%8B%9F/%E5%88%86%E5%AD%90%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%A8%A1%E6%8B%9F/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/theroy/%E5%8C%96%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6/RDkit/RDkit%E4%BB%8B%E7%BB%8D/</loc>
         <lastmod>2025-04-03</lastmod>
         <changefreq>daily</changefreq>
