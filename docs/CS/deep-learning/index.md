@@ -1,11 +1,14 @@
 # 深度学习
 
-## 课程网站
+这门课主要是了解各个模型的运作机理,训练方法和用途,少有编程实践,需要自己额外去实现.
 
-我是在b站上看的吴恩达的课程,随便搜一下就有了,我看的是这个:[https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.788.recommend_more_video.0&vd_source=ee1a193eb1eecfeb89b800c494cadce0]
+!!! note "课程网站"
 
-## 课程笔记
+    吴恩达:[bilibili](https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.788.recommend_more_video.0&vd_source=ee1a193eb1eecfeb89b800c494cadce0)
 
-我的课程笔记参考黄海广的笔记制作而成:
-[http://www.ai-start.com/dl2017/]
+!!! note "参考笔记"
+
+    [黄海广](http://www.ai-start.com/dl2017/)
+
+
 

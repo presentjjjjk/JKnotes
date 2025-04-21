@@ -190,59 +190,29 @@ markdown_extensions: # markdown extensions
 nav: 
   - HOME: 
       - "index.md"
-      
-  - Chemical Engineering:
-      - 化工热力学:
-        - "engineer/化工热力学/index.md"
-        - "engineer/化工热力学/状态方程.md"
-        - "engineer/化工热力学/均相封闭体系.md"
-        - "engineer/化工热力学/均相敞开系统.md"
-        - "engineer/化工热力学/非均相系统.md"
-      - 化学反应工程:
-        - "engineer/化学反应工程/均相反应动力学.md"
-        - "engineer/化学反应工程/反应器的设计.md"
-        - "engineer/化学反应工程/复合反应概述.md"
-        - "engineer/化学反应工程/温度和压力效应.md"
-        - "engineer/化学反应工程/生化反应.md"
-        - "engineer/化学反应工程/非理想流动.md"
 
   - Mathematical Modeling:
-      - 数学建模:
-        - "math/MM/index.md"
-        - 微分方程:
-          - "math/MM/微分方程/常微分方程.md"
-          - "math/MM/微分方程/偏微分方程.md"
-          - "math/MM/微分方程/差分方程.md"
-          - "math/MM/微分方程/微分方程数值解.md"
-          - "math/MM/微分方程/插值.md"
-        - 优化:
-          - 数学规划:
-            - "math/MM/运筹与决策/数学规划.md"
-            - "math/MM/运筹与决策/多目标规划/多目标规划.md"
-            - "math/MM/运筹与决策/组合优化.md"
-            - "math/MM/运筹与决策/动态规划.md"
-            - "math/MM/运筹与决策/非线性规划.md"
-            - "math/MM/运筹与决策/智能优化算法补充.md"
-            - "math/MM/运筹与决策/SVM/支持向量机.md"
-            - "math/MM/运筹与决策/线性化方法.md"
-          - 图论:
-            - "math/MM/图论/图论基础知识.md"
-            - "math/MM/图论/图论相关算法.md"
-
-        - 预测:
-          - "math/MM/cjs/Learn/马尔科夫模型.md"
-          - "math/MM/cjs/Learn/神经网络预测模型.md"
-          - "math/MM/cjs/Learn/回归分析.md"
-          - "math/MM/cjs/Learn/G(1,1)灰色预测模型.md"
-          - "math/MM/cjs/Learn/微分方程预测模型.md"
+      - 运筹优化:
+        - "math/运筹优化/运筹与决策/数学规划.md"
+        - "math/运筹优化/运筹与决策/多目标规划/多目标规划.md"
+        - "math/运筹优化/运筹与决策/组合优化.md"
+        - "math/运筹优化/运筹与决策/动态规划.md"
+        - "math/运筹优化/运筹与决策/非线性规划.md"
+        - "math/运筹优化/运筹与决策/启发式算法.md"
+        - "math/运筹优化/运筹与决策/SVM/支持向量机.md"
+        - "math/运筹优化/运筹与决策/线性化方法.md"
+        - "math/运筹优化/图论/图论相关算法.md"
       
       - 数理方法:
+        - 数值方法:
+          - 'math/数理方法/数值方法/插值.md'
+          - 'math/数理方法/数值方法/差分方程.md'
+          - 'math/数理方法/数值方法/微分方程数值解.md'
         - 傅里叶变换:
           - 'math/数理方法/傅里叶变换/傅里叶级数与傅里叶积分.md'
           - 'math/数理方法/傅里叶变换/傅里叶变换.md'
         - 拉普拉斯变换:
           - 'math/数理方法/拉普拉斯变换/拉普拉斯变换.md'
-
       
       - 复变函数:
         - 'math/复变函数/复变函数.md'
@@ -251,9 +221,8 @@ nav:
         - 'math/复变函数/留数.md'
         - 'math/复变函数/保角映射.md'
 
-
-     
   - Computer Science:
+      - 'CS/环境配置/环境配置.md'
       - 机器学习:
         - 'CS/machine-learning/index.md'
         - 监督学习:
@@ -271,27 +240,45 @@ nav:
         - 无监督学习:
           - 'CS/machine-learning/无监督学习/K-means聚类算法.md'
           - 'CS/machine-learning/无监督学习/异常检测.md'
-        - 强化学习:
+        - 强化学习介绍:
           - 'CS/machine-learning/强化学习/强化学习.md'
           - 'CS/machine-learning/强化学习/深度强化学习.md'
       
       - 深度学习:
         - 'CS/deep-learning/index.md'
-        - 'CS/deep-learning/反向传播算法/反向传播算法.md'
-        - 'CS/deep-learning/减少过拟合的方法/减少过拟合的方法.md'
-        - 'CS/deep-learning/加速神经网络的训练/加速神经网络的训练.md'
+        - 神经网络的训练方法:
+          - 'CS/deep-learning/神经网络的训练方法/反向传播算法/反向传播算法.md'
+          - 'CS/deep-learning/神经网络的训练方法/减少过拟合的方法/减少过拟合的方法.md'
+          - 'CS/deep-learning/神经网络的训练方法/加速神经网络的训练/加速神经网络的训练.md'
+          - 'CS/deep-learning/神经网络的训练方法/超参数/调试超参数.md'
+          - 'CS/deep-learning/神经网络的训练方法/使用tensorflow进行优化/使用tensorflow进行优化.md'
+        - 卷积神经网络:
+          - 'CS/deep-learning/卷积神经网络/卷积神经网络.md'
+          - 'CS/deep-learning/卷积神经网络/残差网络.md'
+          - 'CS/deep-learning/卷积神经网络/Inception network.md'
+        - 循环神经网络:
+          - 'CS/deep-learning/循环神经网络/循环神经网络.md'
+          - 'CS/deep-learning/循环神经网络/GRU门控单元.md'
+          - 'CS/deep-learning/循环神经网络/LSTM.md'
 
-      - Python:
-        - 面向对象:
-          - CS/Python/面向对象/面向对象.md
-    
+      - 现代深度学习模型:
+        - 'CS/现代深度学习模型/图神经网络.md'
+        - 'CS/现代深度学习模型/生成对抗网络.md'
+        - 'CS/现代深度学习模型/Kolmogorov-Arnold Networks.md'
+
+      - Linux:
+        - CS/Linux/启用wsl.md
+        - CS/Linux/linux基本命令.md
+        - CS/Linux/服务器操作.md
+
   - Theoretical and Computational Chemistry:
 
-    - Physical Chemistry(Atkins): 
-      - 'theroy/PC/量子理论初步.md'
-      - 'theroy/PC/原子结构.md'
-      - 'theroy/PC/原子光谱.md'
-      - 'theroy/PC/分子结构.md'
+    - Physical Chemistry(Atkins):
+      - "theroy/Physical Chemistry/index.md" 
+      - 'theroy/Physical Chemistry/量子理论初步.md'
+      - 'theroy/Physical Chemistry/原子结构.md'
+      - 'theroy/Physical Chemistry/原子光谱.md'
+      - 'theroy/Physical Chemistry/分子结构.md'
 
     - 现代电子结构理论:
       - "theroy/量子化学计算/量化理论/基组与矩阵.md"
@@ -304,31 +291,66 @@ nav:
       - "theroy/量子化学计算/量化理论/密度泛函理论.md"
       - "theroy/量子化学计算/量化理论/组态相关.md"
       - "theroy/量子化学计算/量化理论/活性空间,耦合簇以及MP微扰.md"
-    - 计算软件:
+    
+    - 波函数分析方法:
+      - "theroy/波函数分析方法/分子描述符/静电势.md"
+      - "theroy/波函数分析方法/轨道成分分析.md"
+      - "theroy/波函数分析方法/反应活性预测.md"
+      - "theroy/波函数分析方法/RDG分析.md"
+      
+    
+    - 量子化学计算软件:
       - pyscf:
         - "theroy/量子化学计算/pyscf/index.md"
-        - "theroy/量子化学计算/pyscf/pyscf入门.md"
-        - "theroy/量子化学计算/pyscf/输入输出和结构优化.md"
-        - "theroy/量子化学计算/pyscf/关于scf的更多设置.md"
-        - "theroy/量子化学计算/pyscf/DFT计算.md"
+        - "theroy/量子化学计算/pyscf/安装与程序架构.md"
+        - "theroy/量子化学计算/pyscf/DFT.md"
+        - "theroy/量子化学计算/pyscf/post-HF方法.md"
         - "theroy/量子化学计算/pyscf/计算电子密度.md"
         - "theroy/量子化学计算/pyscf/周期性体系.md"
-        - "theroy/量子化学计算/pyscf/post-HF方法.md"
+        - "theroy/量子化学计算/pyscf/零碎设置.md"
+        - "theroy/量子化学计算/pyscf/加速方法.md"
       - ORCA:
-        - "theroy/量子化学计算/ORCA/ORCA相关网站和资料(持续更新).md"
+        - "theroy/量子化学计算/ORCA/ORCA相关资料.md"
         - "theroy/量子化学计算/ORCA/输入.md"
         - "theroy/量子化学计算/ORCA/单点能计算和几何结构优化.md"
         - "theroy/量子化学计算/ORCA/弱相互作用.md"
+        - "theroy/量子化学计算/ORCA/簇模型.md"
+        - "theroy/量子化学计算/ORCA/从头算分子动力学(AIMD).md"
       - Gaussian:
-        - "theroy/量子化学计算/Gaussian/Gaussian相关网站和资料(持续更新).md"
+        - "theroy/量子化学计算/Gaussian/Gaussian相关资料.md"
         - "theroy/量子化学计算/Gaussian/Gaussian入门.md"
         - "theroy/量子化学计算/Gaussian/单点能计算.md"
         - "theroy/量子化学计算/Gaussian/结构优化.md"
-    - Linux基本操作:
-      - "theroy/量子化学计算/linux学习/启用wsl.md" 
-      - "theroy/量子化学计算/linux学习/linux基本命令.md"
+        - "theroy/量子化学计算/Gaussian/过渡态搜索.md"
+        - "theroy/量子化学计算/Gaussian/IRC计算.md"
+        - "theroy/量子化学计算/Gaussian/势能面扫描.md"
+        - "theroy/量子化学计算/Gaussian/振动分析,红外,拉曼光谱.md"
+        - "theroy/量子化学计算/Gaussian/热力学量计算.md"
+        - "theroy/量子化学计算/Gaussian/溶剂模型.md"
 
-        
+    - 第一性原理:
+      - "theroy/第一性原理/index.md"
+      - Density Functional Theory:
+        - "theroy/第一性原理/Density Functional Theory/第二章.md"
+        - "theroy/第一性原理/Density Functional Theory/第三章.md"
+        - "theroy/第一性原理/Density Functional Theory/第四章.md"
+      - 计算软件:
+        - cp2k:
+          - "theroy/第一性原理/计算软件/cp2k/安装cp2k与快速创建输入文件.md"
+    
+    - 分子模拟:
+      - "theroy/分子模拟/分子模拟基础知识/分子力场.md"
+      - "theroy/分子模拟/分子模拟基础知识/分子动力学模拟.md"
+      - "theroy/分子模拟/HyperChem/HyperChem.md"
+      - Gromacs:
+        - "theroy/分子模拟/Gromacs/从创建一个水盒子开始.md"
+        - "theroy/分子模拟/Gromacs/水中的溶菌酶.md"
+
+    - 化学信息学:
+      - RDkit:
+        - "theroy/化学信息学/RDkit/RDkit介绍.md"
+      - 图神经网络:
+        - "theroy/化学信息学/图神经网络/图神经网络.md"
 
 
 
