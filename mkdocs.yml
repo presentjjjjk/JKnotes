@@ -1,0 +1,358 @@
+# 项目信息
+site_name: JKNOTES # 项目名称
+site_url: https://localhost:8000/ # 我在nginx中使用的是8000端口，如果你使用的是80端口，可以直接写成https://localhost/。
+site_author: JK # 作者
+site_description: >- # 项目描述
+  welcome to my notebook
+# 代码仓库信息
+repo_name: presentjjjjk/JKnotes # 仓库名称
+repo_url: https://github.com/presentjjjjk/JKnotes.git/ # 仓库地址
+
+# 版权信息
+copyright: ZJU JK
+
+# 配置
+theme:
+  custom_dir: material/overrides # 自定义文件夹，对于个别页面，如果你不想使用主题的默认样式，可以在这里进行修改，使用里面的文件覆盖主题的默认文件。具体可以参考material官方文档。
+  name: material # 主题名称，Material已经是最优秀的选择了，相信我。
+  #logo: image/logo.png # logo 图片
+  language: zh # 默认语言
+
+
+  features:
+    - navigation.tracking # 在url中使用标题定位锚点
+    - navigation.path # 显示当前路径
+    #- navigation.prune # 侧边栏自动折叠
+    - navigation.tabs # 顶部显示导航顶层nav（也就是第一个节点）
+    - navigation.indexes # 指定节点index pages ，跟instant不兼容
+    - navigation.top # 一键回顶部
+    - navigation.footer # 底部导航
+    - search.highlight # 搜索高亮
+    - search.suggest # 搜索建议
+    - toc.follow # toc 跟随
+    - content.code.annotate # 代码行号
+    - content.code.copy # 代码复制
+  
+  palette:
+    - scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/theme-light-dark
+        name: 深色模式
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/theme-light-dark
+        name: 浅色模式
+
+     
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  #favicon: image/logo.png # 网站图标 似乎不需要管
+  icon: # 一些用到的icon
+    logo: logo
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    tag:
+      default-tag: fontawesome/solid/tag
+      hardware-tag: fontawesome/solid/microchip
+      software-tag: fontawesome/solid/laptop-code
+
+# Plugins
+plugins:
+  - search
+  - tags # 标签功能插件
+  - blog # 博客功能插件
+  - rss: # rss订阅插件 - 不太懂是干嘛的目前
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+  # - social # 目前我开启会报错，还没研究透 
+  - search: # 搜索插件
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' # 分隔符
+  - minify: # 压缩插件
+      minify_html: true
+  # - privacy # 隐私插件
+  - i18n: # 多语言插件
+      docs_structure: suffix # 抄来的，不太懂
+      fallback_to_default: true # 抄来的，不太懂
+      reconfigure_material: true # 抄来的，不太懂
+      reconfigure_search: true # 抄来的，不太懂
+      languages: # 多语言配置 - 需要小心一点
+        - locale: zh
+          default: true # 默认语言
+          name: 简体中文
+          build: true
+
+
+# 额外配置项
+extra:
+  generator: false # 是否显示生成器
+  status: # 不是很懂有什么用
+    new: Recently added
+    deprecated: Deprecated
+  analytics: # 分析工具， 我反正没用到
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback: # feedback form
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  # alternate: # 由上面那个i18n插件提供的多语言功能，这个似乎就不需要了。 这个是官方文档的例子，但是官方没有提供很详细的例子，所以我也不知道怎么用。
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: Chinese
+  #     link: /zh/
+  #     lang: zh
+  social: # 社交媒体
+    - icon: fontawesome/brands/github
+      link: https://github.com/presentjjjjk
+  tags: # 自定义标签
+    Default: default-tag
+    Hardware: hardware-tag
+    Software: software-tag
+  # consent: # 征求同意 Cookie
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+
+# 扩展
+markdown_extensions: # markdown extensions
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# 导航树 - 请按照我的做法来做，否则可能无法正常工作。引号可以省略。开头的点和斜杠也可以省略 ("./HOME/about.md" 或 Home/about.md) 。注意，导航树这里的文件名是 filename.md 这样的，但在文件夹中，它实际上被命名为 filename.en.md 和 filename.zh.md。我猜测默认是英文，所以, index.en.md 和 index.md 是一样的。i18n插件会自动识别文件名，然后根据文件名的后缀来切换语言。所以，如果你想添加一个新页面，你需要添加两个文件，一个是 filename.en.md，另一个是 filename.zh.md。其中，filename.en.md 也可以被命名为 filename.md，但是 filename.zh.md 不能被命名为 filename.md，否则会导致无法识别。
+nav: 
+  - HOME: 
+      - "index.md"
+
+  - Computer Science:
+      - 'CS/环境配置/环境配置.md'
+      - 机器学习:
+        - 'CS/machine-learning/index.md'
+        - 监督学习:
+          - 'CS/machine-learning/线性回归模型/线性回归模型.md'
+          - 'CS/machine-learning/二分类模型/二分类模型.md'
+          - 'CS/machine-learning/二分类模型/过拟合与正则化.md'
+          - 神经网络:
+            - 'CS/machine-learning/神经网络模型/神经网络的基本概念.md'
+            - 'CS/machine-learning/神经网络模型/Softmax.md'
+          - 'CS/machine-learning/模型评估/模型评估.md'
+          - 'CS/machine-learning/模型评估/准确率和召回率.md'
+          - 决策树:
+            - 'CS/machine-learning/决策树/决策树.md'
+            - 'CS/machine-learning/决策树/随机森林.md'
+          - 支持向量机:
+            - 'CS/machine-learning/SVM/支持向量机.md'
+        - 无监督学习:
+          - 'CS/machine-learning/无监督学习/K-means聚类算法.md'
+          - 'CS/machine-learning/无监督学习/异常检测.md'
+        - 强化学习介绍:
+          - 'CS/machine-learning/强化学习/强化学习.md'
+          - 'CS/machine-learning/强化学习/深度强化学习.md'
+      
+      - 深度学习:
+        - 'CS/deep-learning/index.md'
+        - 神经网络的训练方法:
+          - 'CS/deep-learning/神经网络的训练方法/反向传播算法/反向传播算法.md'
+          - 'CS/deep-learning/神经网络的训练方法/减少过拟合的方法/减少过拟合的方法.md'
+          - 'CS/deep-learning/神经网络的训练方法/加速神经网络的训练/加速神经网络的训练.md'
+          - 'CS/deep-learning/神经网络的训练方法/超参数/调试超参数.md'
+          - 'CS/deep-learning/神经网络的训练方法/使用tensorflow进行优化/使用tensorflow进行优化.md'
+        - 卷积神经网络:
+          - 'CS/deep-learning/卷积神经网络/卷积神经网络.md'
+          - 'CS/deep-learning/卷积神经网络/残差网络.md'
+          - 'CS/deep-learning/卷积神经网络/Inception network.md'
+        - 循环神经网络:
+          - 'CS/deep-learning/循环神经网络/循环神经网络.md'
+          - 'CS/deep-learning/循环神经网络/GRU门控单元.md'
+          - 'CS/deep-learning/循环神经网络/LSTM.md'
+        - 自然语言处理:
+          - 'CS/deep-learning/自然语言处理/词嵌入算法.md'
+          - 'CS/deep-learning/自然语言处理/seq2seq model.md'
+          - 'CS/deep-learning/自然语言处理/注意力机制.md'
+
+      - 生成模型:
+        - 'CS/生成模型/生成对抗网络.md'
+      - 语言模型:
+        - 'CS/语言模型/Transformer/注意力机制.md'
+        - 'CS/语言模型/Transformer/Transformer.md'
+      - 几何深度学习:
+        - 'CS/几何深度学习/图神经网络/图神经网络.md'
+        - 'CS/几何深度学习/SchNet/SchNet.md'
+        - 'CS/几何深度学习/TFN/TFN.md'
+        - 'CS/几何深度学习/PaiNN/PaiNN.md'
+        - 'CS/几何深度学习/EGNN/EGNN.md'
+        - 'CS/几何深度学习/SE3-Transformer/SE3-Transformer.md'
+      - KAN:
+        - 'CS/KAN/Kolmogorov-Arnold Networks.md'
+      
+      - Vibe-Coding:
+        - 'CS/vibe_coding/claude_code.md'
+        
+  - Theoretical and Computational Chemistry:
+
+    - 电子结构理论:
+      - "theroy/量化理论/index.md"
+      - "theroy/量化理论/基组与矩阵.md"
+      - "theroy/量化理论/谐振子数值解.md"
+      - "theroy/量化理论/微扰理论.md"
+      - "theroy/量化理论/变分法.md"
+      - "theroy/量化理论/电子自旋.md"
+      - "theroy/量化理论/B-O近似.md"
+      - "theroy/量化理论/Hartree-Fock 方法.md"
+      - "theroy/量化理论/密度泛函理论.md"
+      - "theroy/量化理论/组态相关.md"
+      - "theroy/量化理论/活性空间,耦合簇以及MP微扰.md"
+    
+    - 量子化学算法的从头实现:
+      - "theroy/量子化学算法的从头实现/Hartree_Fock/RHF.md"
+    
+    - 波函数分析方法:
+      - "theroy/波函数分析方法/分子描述符/静电势.md"
+      - "theroy/波函数分析方法/轨道成分分析.md"
+      - "theroy/波函数分析方法/反应活性预测.md"
+    
+    - 量子化学计算软件:
+      - pyscf:
+        - "theroy/量子化学计算软件/pyscf/index.md"
+        - "theroy/量子化学计算软件/pyscf/安装与程序架构.md"
+        - "theroy/量子化学计算软件/pyscf/DFT.md"
+        - "theroy/量子化学计算软件/pyscf/post-HF方法.md"
+        - "theroy/量子化学计算软件/pyscf/计算电子密度.md"
+        - "theroy/量子化学计算软件/pyscf/周期性体系.md"
+        - "theroy/量子化学计算软件/pyscf/零碎设置.md"
+        - "theroy/量子化学计算软件/pyscf/加速方法.md"
+      - ORCA:
+        - "theroy/量子化学计算软件/ORCA/index.md"
+        - "theroy/量子化学计算软件/ORCA/输入.md"
+        - "theroy/量子化学计算软件/ORCA/弱相互作用.md"
+        - "theroy/量子化学计算软件/ORCA/簇模型.md"
+        - "theroy/量子化学计算软件/ORCA/从头算分子动力学(AIMD).md"
+        - "theroy/量子化学计算软件/ORCA/密度拟合技术/密度拟合技术.md"
+      - Gaussian:
+        - "theroy/量子化学计算软件/Gaussian/index.md"
+        - "theroy/量子化学计算软件/Gaussian/Gaussian入门.md"
+        - "theroy/量子化学计算软件/Gaussian/单点能计算.md"
+        - "theroy/量子化学计算软件/Gaussian/结构优化.md"
+        - "theroy/量子化学计算软件/Gaussian/过渡态搜索.md"
+        - "theroy/量子化学计算软件/Gaussian/IRC计算.md"
+        - "theroy/量子化学计算软件/Gaussian/势能面扫描.md"
+        - "theroy/量子化学计算软件/Gaussian/振动分析,红外,拉曼光谱.md"
+        - "theroy/量子化学计算软件/Gaussian/热力学量计算.md"
+        - "theroy/量子化学计算软件/Gaussian/溶剂模型.md"
+        - "theroy/量子化学计算软件/Gaussian/激发态计算与电子光谱.md"
+      - xtb:
+        - "theroy/量子化学计算软件/xtb/index.md"
+        - "theroy/量子化学计算软件/xtb/GFN系列方法.md"
+        - "theroy/量子化学计算软件/xtb/xtb程序的使用.md"
+
+    - 第一性原理:
+      - "theroy/第一性原理/index.md"
+      - Density Functional Theory:
+        - "theroy/第一性原理/Density Functional Theory/第二章.md"
+        - "theroy/第一性原理/Density Functional Theory/第三章.md"
+        - "theroy/第一性原理/Density Functional Theory/第四章.md"
+      - 计算软件:
+        - cp2k:
+          - "theroy/第一性原理/计算软件/cp2k/安装cp2k与快速创建输入文件.md"
+    
+    - 分子模拟:
+      - Gromacs:
+        - "theroy/分子模拟/Gromacs/从创建一个水盒子开始.md"
+        - "theroy/分子模拟/Gromacs/水中的溶菌酶.md"
+
+    - 化学信息学:
+      - RDkit:
+        - "theroy/化学信息学/RDkit/RDkit介绍.md"
+
+extra_css:
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/glightbox.min.css
+  - assets/stylesheets/galaxy.css
+  - assets/stylesheets/charging.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+# - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+# - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+# - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+
+extra_javascript:
+  - assets/javascripts/katex.js 
+  - assets/javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/javascripts/titlechange.js
+  - assets/javascripts/glightbox.min.js
+  - assets/javascripts/galaxy.js
+
+
+
+
